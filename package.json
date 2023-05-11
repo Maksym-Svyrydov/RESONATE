@@ -2,7 +2,7 @@
   "name": "test-task",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Maksym-Svyrydov.github.io/resonate/",
+  "homepage": "https://Maksym-Svyrydov.github.io/resonate",
   "dependencies": {
     "@mui/material": "^5.12.2",
     "@mui/styled-engine-sc": "^5.12.0",
