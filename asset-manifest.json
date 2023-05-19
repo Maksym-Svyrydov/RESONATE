@@ -1,29 +1,21 @@
 {
   "files": {
-    "main.css": "/resonate/static/css/main.8e461422.css",
-    "main.js": "/resonate/static/js/main.32674235.js",
-    "static/css/527.f975512d.chunk.css": "/resonate/static/css/527.f975512d.chunk.css",
-    "static/js/527.60b82b0d.chunk.js": "/resonate/static/js/527.60b82b0d.chunk.js",
-    "static/css/700.f975512d.chunk.css": "/resonate/static/css/700.f975512d.chunk.css",
-    "static/js/700.9cdc17e9.chunk.js": "/resonate/static/js/700.9cdc17e9.chunk.js",
-    "static/css/92.f975512d.chunk.css": "/resonate/static/css/92.f975512d.chunk.css",
-    "static/js/92.81ae1d02.chunk.js": "/resonate/static/js/92.81ae1d02.chunk.js",
+    "main.css": "/resonate/static/css/main.5484bffa.css",
+    "main.js": "/resonate/static/js/main.b8edef97.js",
+    "static/js/527.8022bafa.chunk.js": "/resonate/static/js/527.8022bafa.chunk.js",
+    "static/js/700.d45fb488.chunk.js": "/resonate/static/js/700.d45fb488.chunk.js",
+    "static/js/92.c9e03f81.chunk.js": "/resonate/static/js/92.c9e03f81.chunk.js",
     "static/js/787.e8769ff5.chunk.js": "/resonate/static/js/787.e8769ff5.chunk.js",
-    "static/js/821.81071c08.chunk.js": "/resonate/static/js/821.81071c08.chunk.js",
     "index.html": "/resonate/index.html",
-    "main.8e461422.css.map": "/resonate/static/css/main.8e461422.css.map",
-    "main.32674235.js.map": "/resonate/static/js/main.32674235.js.map",
-    "527.f975512d.chunk.css.map": "/resonate/static/css/527.f975512d.chunk.css.map",
-    "527.60b82b0d.chunk.js.map": "/resonate/static/js/527.60b82b0d.chunk.js.map",
-    "700.f975512d.chunk.css.map": "/resonate/static/css/700.f975512d.chunk.css.map",
-    "700.9cdc17e9.chunk.js.map": "/resonate/static/js/700.9cdc17e9.chunk.js.map",
-    "92.f975512d.chunk.css.map": "/resonate/static/css/92.f975512d.chunk.css.map",
-    "92.81ae1d02.chunk.js.map": "/resonate/static/js/92.81ae1d02.chunk.js.map",
-    "787.e8769ff5.chunk.js.map": "/resonate/static/js/787.e8769ff5.chunk.js.map",
-    "821.81071c08.chunk.js.map": "/resonate/static/js/821.81071c08.chunk.js.map"
+    "main.5484bffa.css.map": "/resonate/static/css/main.5484bffa.css.map",
+    "main.b8edef97.js.map": "/resonate/static/js/main.b8edef97.js.map",
+    "527.8022bafa.chunk.js.map": "/resonate/static/js/527.8022bafa.chunk.js.map",
+    "700.d45fb488.chunk.js.map": "/resonate/static/js/700.d45fb488.chunk.js.map",
+    "92.c9e03f81.chunk.js.map": "/resonate/static/js/92.c9e03f81.chunk.js.map",
+    "787.e8769ff5.chunk.js.map": "/resonate/static/js/787.e8769ff5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8e461422.css",
-    "static/js/main.32674235.js"
+    "static/css/main.5484bffa.css",
+    "static/js/main.b8edef97.js"
   ]
 }
