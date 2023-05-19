@@ -12,8 +12,15 @@ import {
   Item,
   TitleItem,
   TitleText,
+  ImdBg,
   Button,
+  SectionWrapp,
+  SectionHelp,
+  SectionTitle,
+  SectionText,
 } from './Marketing.styled';
+import img from '../../img/01.svg';
+
 const Marketing = () => {
   return (
     <Section>
@@ -22,16 +29,15 @@ const Marketing = () => {
         <TextSectionT>ting.</TextSectionT>
         <TextSectionI>is our ingredient.</TextSectionI>
       </TitleSection>
-
+      <Wrapp>
+        <WrappTitle>MARKETING ANALYSIS</WrappTitle>
+        <WrappText>
+          Marketing analysis helps entrepreneurs reduce business risks,
+          effectively connect with the target audience, provide the right
+          products, and align with the market trends.
+        </WrappText>
+      </Wrapp>
       <List>
-        <Wrapp>
-          <WrappTitle>MARKETING ANALYSIS</WrappTitle>
-          <WrappText>
-            Marketing analysis helps entrepreneurs reduce business risks,
-            effectively connect with the target audience, provide the right
-            products, and align with the market trends.
-          </WrappText>
-        </Wrapp>
         <Item>
           <TitleItem>MARKETING RESEARCH</TitleItem>
           <TitleText>
@@ -69,14 +75,16 @@ const Marketing = () => {
         </Item>
       </List>
       <Button type="button">Check Our Service</Button>
-      <div>
-        <div>01</div>
-        <div>''</div>
-        <div>
-          We will help you develop efficient and working strategy to scale-up
-          your business
-        </div>
-      </div>
+      <SectionWrapp>
+        <ImdBg src={img} />
+        <SectionHelp>
+          <SectionTitle>‘’</SectionTitle>
+          <SectionText>
+            We will help you develop efficient and working strategy to scale-up
+            your business
+          </SectionText>
+        </SectionHelp>
+      </SectionWrapp>
     </Section>
   );
 };

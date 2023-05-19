@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+
 export const Section = styled.section`
   outline: 2px solid tomato;
   display: flex;
@@ -39,12 +40,12 @@ export const TextSectionI = styled.span`
 
   color: #283340;
 `;
-export const Wrapp = styled.li`
+export const Wrapp = styled.div`
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
   width: 100%;
-  padding: 16px 6px 26px 16px;
+  padding: 0px 0px 13px 16px;
   border-left: 2px solid #cbbe9c;
   width: 100%;
 `;
@@ -54,8 +55,9 @@ export const WrappTitle = styled.p`
   font-weight: 700;
   font-size: 24px;
   line-height: 31px;
-
   color: #cbbe9c;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
 `;
 
 export const WrappText = styled.p`
@@ -64,15 +66,17 @@ export const WrappText = styled.p`
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-
   color: #283340;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
 `;
 export const List = styled.ul`
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
   list-style: none;
-  padding: 0px;
+  margin: 0px;
+  padding: 0px 0px 0px 16px;
   ${'' /* margin-bottom: 74px; */}
 `;
 export const Item = styled.li`
@@ -104,17 +108,50 @@ export const TitleText = styled.p`
 export const Button = styled.button`
   width: 300px;
   height: 62px;
-  padding: 16px 69px;
+  padding: 16px 0px 16px 0px;
   margin-bottom: 65px;
   margin-left: auto;
   margin-right: auto;
   border-radius: 8px;
-  background: #cbbe9c;
+  background: #283340;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
+  color: #f5f2f0;
+`;
+export const SectionWrapp = styled.div``;
+export const ImdBg = styled.img`
+  color: rgba(203, 190, 156, 1);
+`;
+export const SectionHelp = styled.div`
+  background: #283340;
+  padding: 0px 34px 44px 0px;
+  margin: 0px 0px 0px 0px;
+  display: flex;
 
-  color: rgba(40, 51, 64, 1);
+  flex-direction: column;
+
+  padding: 0px 34px 0px 42px;
+`;
+export const SectionTitle = styled.div`
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 125px;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0px;
+`;
+export const SectionText = styled.div`
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #f5f2f0;
+  padding: 0px 0px 0px 0px;
+  margin-left: auto;
 `;
