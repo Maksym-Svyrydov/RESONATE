@@ -36,5 +36,4 @@ export const NavContainer = styled.header`
   padding-left: 22px;
   padding-right: 20px;
   flex-direction: row;
-  ${'' /* border-bottom: 1px solid gray; */}
 `;
