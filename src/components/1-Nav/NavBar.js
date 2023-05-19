@@ -4,17 +4,18 @@ import { Suspense } from 'react';
 import { Outlet } from 'react-router-dom';
 import Logo from './Logo';
 import style from './Navbar.module.css';
-import { NavWrapper, NavigationLinks } from './Navbar.styled';
+import { Layout, NavContainer, NavigationLinks } from './Navbar.styled';
+import { Loader } from '../Spiner/Spiner';
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
   return (
-    <NavWrapper>
-      <Logo />
-      <div
-        className={nav ? [style.menu, style.active].join(' ') : [style.menu]}
-      >
-        <Suspense fallback={<div>Loading....</div>}>
+    <Layout>
+      <NavContainer>
+        <Logo />
+        <div
+          className={nav ? [style.menu, style.active].join(' ') : [style.menu]}
+        >
           <NavigationLinks
             style={{
               display: 'flex',
@@ -30,8 +31,7 @@ const Navbar = () => {
           >
             Main
           </NavigationLinks>
-        </Suspense>
-        <Suspense fallback={<div>Loading....</div>}>
+
           <NavigationLinks
             style={{
               textDecoration: 'none',
@@ -45,8 +45,7 @@ const Navbar = () => {
           >
             Blog
           </NavigationLinks>
-        </Suspense>
-        <Suspense fallback={<div>Loading....</div>}>
+
           <NavigationLinks
             style={{
               textDecoration: 'none',
@@ -60,16 +59,15 @@ const Navbar = () => {
           >
             Privacy
           </NavigationLinks>
-        </Suspense>
-      </div>
-
-      <div onClick={() => setNav(!nav)} className={style.mobile_btn}>
-        {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
-      </div>
-      <Suspense fallback={<div>Loading....</div>}>
+        </div>
+        <div onClick={() => setNav(!nav)} className={style.mobile_btn}>
+          {nav ? <AiOutlineClose size={25} /> : <AiOutlineMenu size={25} />}
+        </div>
+      </NavContainer>
+      <Suspense fallback={<Loader />}>
         <Outlet />
       </Suspense>
-    </NavWrapper>
+    </Layout>
   );
 };
 

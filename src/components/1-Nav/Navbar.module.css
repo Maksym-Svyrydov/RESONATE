@@ -2,7 +2,6 @@
 }
 .mobile_btn {
   display: flex;
-
   cursor: pointer;
   z-index: 10;
   margin-left: auto;
