@@ -18,7 +18,7 @@ import {
   SectionHelp,
   SectionTitle,
   SectionText,
-} from './Marketing.styled';
+} from './1-Marketing.styled';
 import img from '../../img/01.svg';
 
 const Marketing = () => {

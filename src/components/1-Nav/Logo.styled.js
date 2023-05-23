@@ -3,7 +3,7 @@ export const LogoWrapper = styled.div`
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
-  padding-left: 42px;
+  padding-left: 20px;
   margin: 0px;
 `;
 export const LogoName = styled.p`
@@ -14,7 +14,8 @@ export const LogoName = styled.p`
   box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-  color: #f5f2f0;
+  ${'' /* color: #f5f2f0; */}
+  color: tomato;
 `;
 export const LogoType = styled.p`
   font-family: 'DM Sans', sans-serif;
@@ -25,4 +26,5 @@ export const LogoType = styled.p`
   box-sizing: border-box;
   margin: 0px;
   color: #f5f2f0;
+  color: tomato;
 `;

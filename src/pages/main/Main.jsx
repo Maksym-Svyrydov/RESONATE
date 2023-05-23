@@ -1,10 +1,16 @@
-import Promo from '../../components/2-Promo/Promo';
-import Marketing from '../../components/2-Promo/Marketing';
+import Promo from '../../components/2-Promo/2-Promo';
+import Marketing from '../../components/2-Promo/1-Marketing';
+import Branding from '../../components/2-Promo/3-Branding';
+import Social from '../../components/2-Promo/4-Social';
+import Develop from '../../components/2-Promo/5-Develop';
 const Main = () => {
   return (
     <>
-      <Promo />
       <Marketing />
+      <Promo />
+      <Branding />
+      <Social />
+      <Develop />
     </>
   );
 };

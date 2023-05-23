@@ -14,26 +14,27 @@ export const NavigationLinks = styled(NavLink)`
 export const Layout = styled.div`
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  position: relative;
   width: 100%;
   margin: 0 auto;
   padding: 0px;
+  position: relative;
+  top: 0;
+  left: 0px;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  overflow: hidden;
 `;
 export const NavContainer = styled.header`
   min-height: 64px;
   position: fixed;
-  right: 0px;
-  top: 0px;
   display: flex;
-  justify-content: start;
+  min-width: 100%;
+  justify-content: space-around;
   align-items: center;
   margin: 10px, auto;
-  width: 100%;
-  padding-left: 22px;
-  padding-right: 20px;
+  padding-left: 42px;
+  padding-right: 55px;
   flex-direction: row;
+  z-index: 10;
+  outline: 1px solid tomato;
 `;
