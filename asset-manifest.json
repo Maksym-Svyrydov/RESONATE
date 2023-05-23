@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.5484bffa.css",
-    "main.js": "/resonate/static/js/main.b45efd98.js",
-    "static/js/423.500cd99a.chunk.js": "/resonate/static/js/423.500cd99a.chunk.js",
+    "main.js": "/resonate/static/js/main.1a101c67.js",
+    "static/js/566.edc1726e.chunk.js": "/resonate/static/js/566.edc1726e.chunk.js",
     "static/js/700.d45fb488.chunk.js": "/resonate/static/js/700.d45fb488.chunk.js",
     "static/js/92.c9e03f81.chunk.js": "/resonate/static/js/92.c9e03f81.chunk.js",
     "static/js/787.e8769ff5.chunk.js": "/resonate/static/js/787.e8769ff5.chunk.js",
+    "static/media/bg-zoo.png": "/resonate/static/media/bg-zoo.eb2b38bceb331a3c094f.png",
     "static/media/05.png": "/resonate/static/media/05.70a93e5f97e50a9084fd.png",
     "static/media/03.png": "/resonate/static/media/03.ef998b06965bda51d5df.png",
     "static/media/02.png": "/resonate/static/media/02.04a349e973050b5ec058.png",
@@ -13,14 +14,14 @@
     "static/media/01.svg": "/resonate/static/media/01.836b5bf3678f84ca9d7459f4cfa2477e.svg",
     "index.html": "/resonate/index.html",
     "main.5484bffa.css.map": "/resonate/static/css/main.5484bffa.css.map",
-    "main.b45efd98.js.map": "/resonate/static/js/main.b45efd98.js.map",
-    "423.500cd99a.chunk.js.map": "/resonate/static/js/423.500cd99a.chunk.js.map",
+    "main.1a101c67.js.map": "/resonate/static/js/main.1a101c67.js.map",
+    "566.edc1726e.chunk.js.map": "/resonate/static/js/566.edc1726e.chunk.js.map",
     "700.d45fb488.chunk.js.map": "/resonate/static/js/700.d45fb488.chunk.js.map",
     "92.c9e03f81.chunk.js.map": "/resonate/static/js/92.c9e03f81.chunk.js.map",
     "787.e8769ff5.chunk.js.map": "/resonate/static/js/787.e8769ff5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5484bffa.css",
-    "static/js/main.b45efd98.js"
+    "static/js/main.1a101c67.js"
   ]
 }
