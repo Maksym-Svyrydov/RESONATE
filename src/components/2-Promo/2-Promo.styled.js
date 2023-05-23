@@ -134,12 +134,12 @@ export const SectionWrapp = styled.div`
   left: 0px;
 `;
 export const ImdBg = styled.img`
-  width: 168px;
+  width: 178px;
   ${'' /* height: 125px; */}
   color: rgba(203, 190, 156, 1);
   position: absolute;
-  top: -95px;
-  left: -15px;
+  top: -100px;
+  left: -25px;
   overflow: hidden;
 `;
 export const SectionHelp = styled.div`

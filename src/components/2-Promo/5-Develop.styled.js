@@ -137,8 +137,8 @@ export const ImdBg = styled.img`
   width: 190px;
   color: rgba(203, 190, 156, 1);
   position: absolute;
-  top: -130px;
-  left: -15px;
+  top: -125px;
+  left: -25px;
 `;
 export const SectionHelp = styled.div`
   background: #283340;
