@@ -55,7 +55,7 @@ const Marketing = () => {
             actions, on luck alone.
           </TitleText>
         </Item>
-        <TitleItem>
+        <Item>
           <TitleItem>INBOUND MARKETING</TitleItem>
           <TitleText>
             While digital advertising is one of the best ways to reach your
@@ -65,7 +65,7 @@ const Marketing = () => {
             presence and accelerate your long-term growth by putting the
             customer at the center of your activities.
           </TitleText>
-        </TitleItem>
+        </Item>
         <Item>
           <TitleItem>Outsourced marketing department</TitleItem>
           <TitleText>

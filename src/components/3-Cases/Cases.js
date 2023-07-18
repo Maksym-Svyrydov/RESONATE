@@ -16,19 +16,21 @@ import {
 import myImage from '../../img/bg-zoo.png';
 import styled from 'styled-components';
 
+const Item = styled.li`
+  padding-left: 30px;
+  padding-top: 18px;
+  background-repeat: no-repeat;
+  background-color: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.2) 0%,
+    rgba(0, 0, 0, 0) 54.17%
+  );
+  border: 1px solid #cbbe9c;
+  background-image: url(${myImage});
+  background-repeat: no-repeat;
+  background-size: cover;
+`;
 const Cases = () => {
-  const Item = styled.li`
-    padding-left: 30px;
-    padding-top: 18px;
-    background-repeat: no-repeat;
-    background-color: linear-gradient(
-      180deg,
-      rgba(0, 0, 0, 0.2) 0%,
-      rgba(0, 0, 0, 0) 54.17%
-    );
-    border: 1px solid #cbbe9c;
-    background-image: url(${myImage});
-  `;
   return (
     <Section>
       <Title>CASE STUDIES</Title>

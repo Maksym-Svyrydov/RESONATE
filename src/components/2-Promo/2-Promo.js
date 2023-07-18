@@ -58,7 +58,7 @@ const Promo = () => {
             the right time.
           </TitleText>
         </Item>
-        <TitleItem>
+        <Item>
           <TitleItem>sales funnels</TitleItem>
           <TitleText>
             While digital advertising is one of the best ways to reach your
@@ -68,7 +68,7 @@ const Promo = () => {
             presence and accelerate your long-term growth by putting the
             customer at the center of your activities.
           </TitleText>
-        </TitleItem>
+        </Item>
       </List>
       <Button type="button">Check Our Service</Button>
       <SectionWrapp>
