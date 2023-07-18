@@ -1,27 +1,32 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.5484bffa.css",
-    "main.js": "/resonate/static/js/main.1a101c67.js",
-    "static/js/566.edc1726e.chunk.js": "/resonate/static/js/566.edc1726e.chunk.js",
-    "static/js/700.d45fb488.chunk.js": "/resonate/static/js/700.d45fb488.chunk.js",
-    "static/js/92.c9e03f81.chunk.js": "/resonate/static/js/92.c9e03f81.chunk.js",
+    "main.js": "/resonate/static/js/main.884b4d63.js",
+    "static/css/149.4e01b847.chunk.css": "/resonate/static/css/149.4e01b847.chunk.css",
+    "static/js/149.e1ebb5fc.chunk.js": "/resonate/static/js/149.e1ebb5fc.chunk.js",
+    "static/js/700.07742d20.chunk.js": "/resonate/static/js/700.07742d20.chunk.js",
+    "static/js/92.63f4235d.chunk.js": "/resonate/static/js/92.63f4235d.chunk.js",
     "static/js/787.e8769ff5.chunk.js": "/resonate/static/js/787.e8769ff5.chunk.js",
-    "static/media/bg-zoo.png": "/resonate/static/media/bg-zoo.eb2b38bceb331a3c094f.png",
-    "static/media/05.png": "/resonate/static/media/05.70a93e5f97e50a9084fd.png",
-    "static/media/03.png": "/resonate/static/media/03.ef998b06965bda51d5df.png",
-    "static/media/02.png": "/resonate/static/media/02.04a349e973050b5ec058.png",
-    "static/media/04.png": "/resonate/static/media/04.1fa0daa973cc94e0c1ce.png",
-    "static/media/01.svg": "/resonate/static/media/01.836b5bf3678f84ca9d7459f4cfa2477e.svg",
+    "static/js/413.a3ad10b7.chunk.js": "/resonate/static/js/413.a3ad10b7.chunk.js",
+    "static/media/kharkivzoo_logo.svg": "/resonate/static/media/kharkivzoo_logo.e740da078e32fc11e92abef575acd13d.svg",
+    "static/media/marludesign_logo.svg": "/resonate/static/media/marludesign_logo.0f7ab0dfcaffede1dab889b7b208f859.svg",
+    "static/media/slick.svg": "/resonate/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/resonate/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/resonate/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/resonate/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/arrow-left.svg": "/resonate/static/media/arrow-left.add98315b16eee790d7aef027fa3cf2b.svg",
     "index.html": "/resonate/index.html",
     "main.5484bffa.css.map": "/resonate/static/css/main.5484bffa.css.map",
-    "main.1a101c67.js.map": "/resonate/static/js/main.1a101c67.js.map",
-    "566.edc1726e.chunk.js.map": "/resonate/static/js/566.edc1726e.chunk.js.map",
-    "700.d45fb488.chunk.js.map": "/resonate/static/js/700.d45fb488.chunk.js.map",
-    "92.c9e03f81.chunk.js.map": "/resonate/static/js/92.c9e03f81.chunk.js.map",
-    "787.e8769ff5.chunk.js.map": "/resonate/static/js/787.e8769ff5.chunk.js.map"
+    "main.884b4d63.js.map": "/resonate/static/js/main.884b4d63.js.map",
+    "149.4e01b847.chunk.css.map": "/resonate/static/css/149.4e01b847.chunk.css.map",
+    "149.e1ebb5fc.chunk.js.map": "/resonate/static/js/149.e1ebb5fc.chunk.js.map",
+    "700.07742d20.chunk.js.map": "/resonate/static/js/700.07742d20.chunk.js.map",
+    "92.63f4235d.chunk.js.map": "/resonate/static/js/92.63f4235d.chunk.js.map",
+    "787.e8769ff5.chunk.js.map": "/resonate/static/js/787.e8769ff5.chunk.js.map",
+    "413.a3ad10b7.chunk.js.map": "/resonate/static/js/413.a3ad10b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5484bffa.css",
-    "static/js/main.1a101c67.js"
+    "static/js/main.884b4d63.js"
   ]
 }
