@@ -1,11 +1,6 @@
 import Slider from 'react-slick';
 import styled from 'styled-components';
 
-export const ReviewContainer = styled.div`
-  text-align: center;
-  background-color: #ffffff;
-`;
-
 export const LogoItem = styled.div`
   width: 280px;
   height: 80px;
