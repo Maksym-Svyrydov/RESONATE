@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkresonate=self.webpackChunkresonate||[]).push([[700],{6700:function(e,n,s){s.r(n);var r=s(8574),t=s(184);n.default=function(){return(0,t.jsx)("div",{children:(0,t.jsx)(r.Z,{})})}}}]);
+//# sourceMappingURL=700.8c343906.chunk.js.map
