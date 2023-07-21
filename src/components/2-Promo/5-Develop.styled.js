@@ -22,7 +22,6 @@ export const TextSectionM = styled.span`
   color: #f5f2f0;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px #cbbe9c;
-  /* or 43px */
 `;
 export const TextSectionT = styled.span`
   font-family: 'DM Sans', sans-serif;
@@ -30,7 +29,6 @@ export const TextSectionT = styled.span`
   font-weight: 700;
   font-size: 54px;
   line-height: 80%;
-  /* or 43px */
 `;
 export const TextSectionI = styled.span`
   display: block;
@@ -39,8 +37,6 @@ export const TextSectionI = styled.span`
   font-weight: 400;
   font-size: 22px;
   line-height: 50px;
-  /* identical to box height, or 227% */
-
   color: #283340;
 `;
 export const Wrapp = styled.div`
@@ -81,7 +77,6 @@ export const List = styled.ul`
   list-style: none;
   margin: 0px;
   padding: 0px 0px 0px 16px;
-  ${'' /* margin-bottom: 74px; */}
 `;
 export const Item = styled.li`
   font-family: 'DM Sans' sans-serif;
@@ -109,23 +104,7 @@ export const TitleText = styled.p`
   padding: 0px;
   margin: 0px 0px 13px 0px;
 `;
-export const Button = styled.button`
-  width: 300px;
-  height: 62px;
-  padding: 16px 0px 16px 0px;
-  margin-top: 36px;
-  margin-bottom: 145px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  background: #283340;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 30px;
-  color: #f5f2f0;
-`;
+
 export const SectionWrapp = styled.div`
   display: flex;
   flex-direction: column;
@@ -154,18 +133,7 @@ export const SectionHelp = styled.div`
   padding: 0px 34px 0px 42px;
   overflow: hidden;
 `;
-export const SectionTitle = styled.div`
-  font-family: 'DM Sans', sans-serif;
-  font-style: oblique;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 125px;
-  color: #ffffff;
-  text-decoration: none;
-  margin: 0px;
-  position: relative;
-  left: 30px;
-`;
+
 export const SectionText = styled.div`
   font-family: 'DM Sans', sans-serif;
   font-style: normal;

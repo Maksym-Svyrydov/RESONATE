@@ -1,4 +1,7 @@
 import React from 'react';
+import img from '../../img/04.png';
+import Quotes from '../Quote/Quote';
+import ButtonService from '../Button-Service/Button';
 import {
   Section,
   TitleSection,
@@ -13,13 +16,10 @@ import {
   TitleItem,
   TitleText,
   ImdBg,
-  Button,
   SectionWrapp,
   SectionHelp,
-  SectionTitle,
   SectionText,
 } from './4-Social.styled';
-import img from '../../img/04.png';
 
 const Social = () => {
   return (
@@ -66,11 +66,11 @@ const Social = () => {
           </TitleText>
         </Item>
       </List>
-      <Button type="button">Check Our Service</Button>
+      <ButtonService />
       <SectionWrapp>
         <ImdBg src={img} />
         <SectionHelp>
-          <SectionTitle>‘’</SectionTitle>
+          <Quotes />
           <SectionText>
             We help you to engage your brand awareness and bring cliens throw
             social networks

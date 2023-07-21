@@ -1,4 +1,7 @@
 import React from 'react';
+import img from '../../img/05.png';
+import Quotes from '../Quote/Quote';
+import ButtonService from '../Button-Service/Button';
 import {
   Section,
   TitleSection,
@@ -13,13 +16,10 @@ import {
   TitleItem,
   TitleText,
   ImdBg,
-  Button,
   SectionWrapp,
   SectionHelp,
-  SectionTitle,
   SectionText,
 } from './5-Develop.styled';
-import img from '../../img/05.png';
 
 const Social = () => {
   return (
@@ -65,11 +65,11 @@ const Social = () => {
           </TitleText>
         </Item>
       </List>
-      <Button type="button">Check Our Service</Button>
+      <ButtonService />
       <SectionWrapp>
         <ImdBg src={img} />
         <SectionHelp>
-          <SectionTitle>‘’</SectionTitle>
+          <Quotes />
           <SectionText>
             Your website delivers your marketing message 24 hours, 365 days a
             year!

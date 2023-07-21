@@ -1,4 +1,8 @@
 import React from 'react';
+import ButtonService from '../Button-Service/Button';
+import Quotes from '../Quote/Quote';
+import img from '../../img/01.svg';
+
 import {
   Section,
   TitleSection,
@@ -13,13 +17,10 @@ import {
   TitleItem,
   TitleText,
   ImdBg,
-  Button,
   SectionWrapp,
   SectionHelp,
-  SectionTitle,
   SectionText,
 } from './1-Marketing.styled';
-import img from '../../img/01.svg';
 
 const Marketing = () => {
   return (
@@ -74,11 +75,11 @@ const Marketing = () => {
           </TitleText>
         </Item>
       </List>
-      <Button type="button">Check Our Service</Button>
+      <ButtonService />
       <SectionWrapp>
         <ImdBg src={img} />
         <SectionHelp>
-          <SectionTitle>‘’</SectionTitle>
+          <Quotes />
           <SectionText>
             We will help you develop efficient and working strategy to scale-up
             your business

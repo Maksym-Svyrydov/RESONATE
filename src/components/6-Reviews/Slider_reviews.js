@@ -2,19 +2,30 @@ import React from 'react';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 // import Slider from 'react-slick';
-import { ReviewsCustomers, WrapperReview } from './Slider_reviews.styled';
-
+import {
+  ReviewsCustomers,
+  WrapperReview,
+  ReviewTextItem,
+  CustomerWrapper,
+  CustomerAvatar,
+  CustomerNameWrapper,
+  CustomerName,
+  CustomerCompany,
+  ButtonBox,
+  ButtonList,
+} from './Slider_reviews.styled';
+import avatCustomer from '../../img/Customers-avatars/Igor_Radchenko.png';
 export const SliderReviews = () => {
   const appendDots = (dots) => (
-    <div
-      style={{
-        // backgroundColor: '#ddd',
-        borderRadius: '10px',
-        padding: '10px',
-      }}
+    <ButtonBox
+    // style={{
+    //   backgroundColor: '#ddd',
+    //   borderRadius: '10px',
+    //   padding: '10px',
+    // }}
     >
-      <ul style={{ margin: '0px' }}> {dots} </ul>
-    </div>
+      <ButtonList> {dots} </ButtonList>
+    </ButtonBox>
   );
 
   // const customPaging = (i) => (
@@ -41,25 +52,54 @@ export const SliderReviews = () => {
   };
   return (
     <>
-      <>Append Dots</>
       <ReviewsCustomers {...settings}>
         <WrapperReview key={1}>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
+          <ReviewTextItem>
+            Resonate is a great partner and helps us drive traffic and
+            conversions to our company platform. They contribute enormously to
+            our growth with an excellent return on investment in our campaigns.
+            They are fast, flexible and have a deep understanding of what they
+            are doing.
+          </ReviewTextItem>
+          <CustomerWrapper>
+            <CustomerAvatar src={avatCustomer} alt="Igor Radchenko" />
+            <CustomerNameWrapper>
+              <CustomerName>Igor Radchenko</CustomerName>
+              <CustomerCompany>CEO | Vikno System</CustomerCompany>
+            </CustomerNameWrapper>
+          </CustomerWrapper>
         </WrapperReview>
         <WrapperReview key={2}>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
+          <ReviewTextItem>
+            Resonate is a great partner and helps us drive traffic and
+            conversions to our company platform. They contribute enormously to
+            our growth with an excellent return on investment in our campaigns.
+            They are fast, flexible and have a deep understanding of what they
+            are doing.
+          </ReviewTextItem>
+          <CustomerWrapper>
+            <CustomerAvatar src={avatCustomer} alt="Igor Radchenko" />
+            <CustomerNameWrapper>
+              <CustomerName>Igor Radchenko</CustomerName>
+              <CustomerCompany>CEO | Vikno System</CustomerCompany>
+            </CustomerNameWrapper>
+          </CustomerWrapper>
         </WrapperReview>
         <WrapperReview key={3}>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
-          <h3>1dfsdfsdf</h3>
+          <ReviewTextItem>
+            Resonate is a great partner and helps us drive traffic and
+            conversions to our company platform. They contribute enormously to
+            our growth with an excellent return on investment in our campaigns.
+            They are fast, flexible and have a deep understanding of what they
+            are doing.
+          </ReviewTextItem>
+          <CustomerWrapper>
+            <CustomerAvatar src={avatCustomer} alt="Igor Radchenko" />
+            <CustomerNameWrapper>
+              <CustomerName>Igor Radchenko</CustomerName>
+              <CustomerCompany>CEO | Vikno System</CustomerCompany>
+            </CustomerNameWrapper>
+          </CustomerWrapper>
         </WrapperReview>
       </ReviewsCustomers>
     </>

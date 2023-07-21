@@ -1,4 +1,6 @@
 import React from 'react';
+import img from '../../img/03.png';
+import Quotes from '../Quote/Quote';
 import {
   Section,
   TitleSection,
@@ -13,13 +15,11 @@ import {
   TitleItem,
   TitleText,
   ImdBg,
-  Button,
   SectionWrapp,
   SectionHelp,
-  SectionTitle,
   SectionText,
 } from './3-Branding.styled';
-import img from '../../img/03.png';
+import ButtonService from '../Button-Service/Button';
 
 const Branding = () => {
   return (
@@ -59,11 +59,11 @@ const Branding = () => {
           </TitleText>
         </Item>
       </List>
-      <Button type="button">Check Our Service</Button>
+      <ButtonService />
       <SectionWrapp>
         <ImdBg src={img} />
         <SectionHelp>
-          <SectionTitle>‘’</SectionTitle>
+          <Quotes />
           <SectionText>
             We help you to create a powerful, memorable image of the enterprise
             in the subconscious of the consumer

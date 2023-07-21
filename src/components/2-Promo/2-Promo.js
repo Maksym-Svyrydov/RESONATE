@@ -1,4 +1,8 @@
 import React from 'react';
+import img from '../../img/02.png';
+import Quotes from '../Quote/Quote';
+import ButtonService from '../Button-Service/Button';
+
 import {
   Section,
   TitleSection,
@@ -13,13 +17,10 @@ import {
   TitleItem,
   TitleText,
   ImdBg,
-  Button,
   SectionWrapp,
   SectionHelp,
-  SectionTitle,
   SectionText,
 } from './2-Promo.styled';
-import img from '../../img/02.png';
 
 const Promo = () => {
   return (
@@ -70,11 +71,11 @@ const Promo = () => {
           </TitleText>
         </Item>
       </List>
-      <Button type="button">Check Our Service</Button>
+      <ButtonService />
       <SectionWrapp>
         <ImdBg src={img} />
         <SectionHelp>
-          <SectionTitle>‘’</SectionTitle>
+          <Quotes />
           <SectionText>
             Let's make performance marketing a tool for your business and reach
             your audience wherever it is
