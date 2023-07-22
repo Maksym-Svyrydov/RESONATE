@@ -1,5 +1,6 @@
 import { Section } from './Profit.styled';
 import profitImg from '../../img/Profit_img.png';
+import ButtonMore from '../Button-more/ButtonMore';
 import {
   TextWrapperTitle,
   TextTitle,
@@ -11,11 +12,8 @@ import {
   TitleCremeColor,
   TitleWhiteColor,
   Text,
-  BtnWrapper,
-  Link,
-  Arrow,
 } from './Profit.styled';
-import arrow from '../../img/Arrow_link_right.svg';
+
 const Profit = () => {
   return (
     <Section>
@@ -57,11 +55,7 @@ const Profit = () => {
           records of the most basic indicators
         </Text>
       </TextWrapper>
-      <BtnWrapper>
-        <Link href="">
-          Discover more <Arrow src={arrow} alt="arrow" />
-        </Link>
-      </BtnWrapper>
+      <ButtonMore />
     </Section>
   );
 };
