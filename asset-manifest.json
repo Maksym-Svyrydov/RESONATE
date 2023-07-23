@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.5484bffa.css",
-    "main.js": "/resonate/static/js/main.5986995f.js",
+    "main.js": "/resonate/static/js/main.25d25075.js",
     "static/css/556.052997d7.chunk.css": "/resonate/static/css/556.052997d7.chunk.css",
     "static/js/556.b5cf2ff0.chunk.js": "/resonate/static/js/556.b5cf2ff0.chunk.js",
-    "static/js/700.8c343906.chunk.js": "/resonate/static/js/700.8c343906.chunk.js",
+    "static/js/549.70c8f858.chunk.js": "/resonate/static/js/549.70c8f858.chunk.js",
     "static/js/92.0791484b.chunk.js": "/resonate/static/js/92.0791484b.chunk.js",
     "static/js/787.097e58ee.chunk.js": "/resonate/static/js/787.097e58ee.chunk.js",
     "static/js/413.ad80452a.chunk.js": "/resonate/static/js/413.ad80452a.chunk.js",
@@ -12,6 +12,7 @@
     "static/media/bg-zoo.png": "/resonate/static/media/bg-zoo.eb2b38bceb331a3c094f.png",
     "static/media/05.png": "/resonate/static/media/05.70a93e5f97e50a9084fd.png",
     "static/media/03.png": "/resonate/static/media/03.ef998b06965bda51d5df.png",
+    "static/media/Valeriy.png": "/resonate/static/media/Valeriy.d9c9e73fb82e44a73e5c.png",
     "static/media/02.png": "/resonate/static/media/02.04a349e973050b5ec058.png",
     "static/media/Profit_img.png": "/resonate/static/media/Profit_img.f06d0cfaacc039add068.png",
     "static/media/04.png": "/resonate/static/media/04.1fa0daa973cc94e0c1ce.png",
@@ -25,28 +26,30 @@
     "static/media/slick.eot": "/resonate/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/Be.svg": "/resonate/static/media/Be.af365ba34fb4822ad49f847c58ab3480.svg",
     "static/media/slick.ttf": "/resonate/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/telegram.svg": "/resonate/static/media/telegram.def72a29714eb8d33491476b60cf7661.svg",
     "static/media/twitter.svg": "/resonate/static/media/twitter.0e376fefe6355cca634c95cbb11c711e.svg",
     "static/media/slick.woff": "/resonate/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/mail.svg": "/resonate/static/media/mail.c752522f5a7a8673c4d3216aa568da84.svg",
     "static/media/arrow-left.svg": "/resonate/static/media/arrow-left.add98315b16eee790d7aef027fa3cf2b.svg",
     "static/media/facebook.svg": "/resonate/static/media/facebook.1597222d820bcc47566afccc47c50af9.svg",
+    "static/media/Facebook Icon.svg": "/resonate/static/media/Facebook Icon.fb308f8525dfb4f9332b1d56ca80201c.svg",
     "static/media/linkiedIn.svg": "/resonate/static/media/linkiedIn.343c07af4176ecc23f210bada684b0d5.svg",
     "index.html": "/resonate/index.html",
-    "static/media/mail.svg": "/resonate/static/media/mail.c752522f5a7a8673c4d3216aa568da84.svg",
     "static/media/Arrow_link_right.svg": "/resonate/static/media/Arrow_link_right.fb69f8036f5508d6b774d03aa5d64f17.svg",
     "static/media/youtube.svg": "/resonate/static/media/youtube.fbd864dde048ab903d0993f9041d9b47.svg",
     "static/media/quote-white.svg": "/resonate/static/media/quote-white.696570e7a4d865526ffaac67c3e38dc0.svg",
     "static/media/quote.svg": "/resonate/static/media/quote.e750365b83ec0ed284a1f10541feca04.svg",
     "main.5484bffa.css.map": "/resonate/static/css/main.5484bffa.css.map",
-    "main.5986995f.js.map": "/resonate/static/js/main.5986995f.js.map",
+    "main.25d25075.js.map": "/resonate/static/js/main.25d25075.js.map",
     "556.052997d7.chunk.css.map": "/resonate/static/css/556.052997d7.chunk.css.map",
     "556.b5cf2ff0.chunk.js.map": "/resonate/static/js/556.b5cf2ff0.chunk.js.map",
-    "700.8c343906.chunk.js.map": "/resonate/static/js/700.8c343906.chunk.js.map",
+    "549.70c8f858.chunk.js.map": "/resonate/static/js/549.70c8f858.chunk.js.map",
     "92.0791484b.chunk.js.map": "/resonate/static/js/92.0791484b.chunk.js.map",
     "787.097e58ee.chunk.js.map": "/resonate/static/js/787.097e58ee.chunk.js.map",
     "413.ad80452a.chunk.js.map": "/resonate/static/js/413.ad80452a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5484bffa.css",
-    "static/js/main.5986995f.js"
+    "static/js/main.25d25075.js"
   ]
 }
