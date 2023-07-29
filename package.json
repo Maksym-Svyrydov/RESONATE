@@ -24,6 +24,7 @@
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "react-snap-carousel": "^0.3.2",
+    "react-swipeable": "^7.0.1",
     "sass": "^1.62.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.11",

@@ -2,12 +2,20 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 export const NavigationLinks = styled(NavLink)`
-  color: #5736a3;
+  display: flex;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #cbbe9c;
   padding: 8px;
+
   &.active {
-    background: #5736a3;
-    color: #ebd8ff;
-    border-radius: 8px;
+    background: #cbbe9c;
+    color: #283340;
+    ${'' /* border-radius: 8px; */}
   }
 `;
 

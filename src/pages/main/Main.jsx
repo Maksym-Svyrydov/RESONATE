@@ -11,19 +11,6 @@ import Articles from '../../components/7-Articles/Articles';
 import Footer from '../../components/8-Footer/Footer';
 
 const Main = () => {
-  // console.log(window.screen.width);
-
-  // const [windowWidth, setWindowWidth] = React.useState(window.screen.width);
-
-  // React.useEffect(() => {
-  //   window.onresize = () => {
-  //     setWindowWidth(window.screen.width);
-  //   };
-  //   // Ваш код
-  //   return () => {
-  //     window.onresize = false;
-  //   };
-  // }, [windowWidth]);
   return (
     <>
       <Marketing />
@@ -41,5 +28,4 @@ const Main = () => {
     </>
   );
 };
-
 export default Main;
