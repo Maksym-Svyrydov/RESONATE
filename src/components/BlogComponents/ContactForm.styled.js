@@ -3,10 +3,9 @@ import styled from 'styled-components';
 export const FormContainer = styled.div`
   box-sizing: border-box;
   position: sticky;
-  display: flex;
+  bottom: 20px;
   flex-direction: column;
-  outline: 1px solid tomato;
-
+  height: 580px;
   width: 339px;
   padding: 17px 14px;
   flex-shrink: 0;
@@ -18,6 +17,7 @@ export const FormContainer = styled.div`
 `;
 export const Wrapper = styled.div`
   display: flex;
+  position: relative;
   padding: 22px 37px 36px 37px;
   flex-direction: column;
   border: 1px solid rgba(203, 190, 156, 0.5);

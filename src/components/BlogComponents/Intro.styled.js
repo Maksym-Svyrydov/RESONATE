@@ -68,4 +68,11 @@ export const List = styled.ul`
   margin: 0px 0px 60px 0px;
   padding: 0;
 `;
-export const Item = styled.li``;
+export const Item = styled.li`
+  color: #283340;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+`;

@@ -2,25 +2,19 @@ import styled from 'styled-components';
 export const Section = styled.div`
   display: flex;
   box-sizing: border-box;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: flex-start;
-  width: 709px;
-  height: 100%;
-  ${'' /* background: #f5f2f0; */}
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
+  width: 1034px;
   line-height: normal;
-  background-color: rgba(203, 190, 156, 0.15);
-  outline: 1px solid tomato;
 `;
 export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  width: 615px;
-  outline: 1px solid green;
+  width: 709px;
   padding: 21px 0px 0px 47px;
+  margin-right: auto;
+  background-color: rgba(203, 190, 156, 0.15);
 `;
 export const Title = styled.h3`
   color: #000;

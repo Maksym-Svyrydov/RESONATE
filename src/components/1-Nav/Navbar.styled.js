@@ -11,7 +11,6 @@ export const NavigationLinks = styled(NavLink)`
   text-transform: uppercase;
   color: #cbbe9c;
   padding: 8px;
-
   &.active {
     background: #cbbe9c;
     color: #283340;
