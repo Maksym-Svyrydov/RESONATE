@@ -1,9 +1,9 @@
-import Navbar from '../../components/1-Nav/NavBar';
+import { PrivacyArt } from '../../components/PrivacyComponents/Privacy';
 const Privacy = () => {
   return (
-    <div>
-      <Navbar />
-    </div>
+    <>
+      <PrivacyArt />
+    </>
   );
 };
 

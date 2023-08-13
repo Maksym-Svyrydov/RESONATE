@@ -23,7 +23,13 @@ const Navbar = () => {
   }, [nav]);
 
   return (
-    <Layout onClick={() => setNav(!nav)}>
+    <Layout
+      onClick={() => {
+        if (nav) {
+          setNav(!nav);
+        }
+      }}
+    >
       <NavContainer
         onClick={(e) => {
           if (e.target === e.currentTarget) {

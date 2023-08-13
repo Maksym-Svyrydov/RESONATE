@@ -1,4 +1,4 @@
-import { ContactForm } from '../../components/BlogComponents/ContactForm';
+import { ContactForm } from '../../components/ContactForm/ContactForm';
 import { Contenst } from '../../components/BlogComponents/Contents';
 import { Footer } from '../../components/BlogComponents/Footer';
 import { Hero } from '../../components/BlogComponents/Hero';
