@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.29716e9e.css",
-    "main.js": "/resonate/static/js/main.0edcfc1a.js",
-    "static/css/556.052997d7.chunk.css": "/resonate/static/css/556.052997d7.chunk.css",
-    "static/js/556.b5cf2ff0.chunk.js": "/resonate/static/js/556.b5cf2ff0.chunk.js",
-    "static/js/499.de54a993.chunk.js": "/resonate/static/js/499.de54a993.chunk.js",
-    "static/js/92.0791484b.chunk.js": "/resonate/static/js/92.0791484b.chunk.js",
+    "main.js": "/resonate/static/js/main.bb98c149.js",
+    "static/css/241.ab934558.chunk.css": "/resonate/static/css/241.ab934558.chunk.css",
+    "static/js/241.bc472f02.chunk.js": "/resonate/static/js/241.bc472f02.chunk.js",
+    "static/js/147.88f77580.chunk.js": "/resonate/static/js/147.88f77580.chunk.js",
+    "static/js/964.e7b49a10.chunk.js": "/resonate/static/js/964.e7b49a10.chunk.js",
     "static/js/787.097e58ee.chunk.js": "/resonate/static/js/787.097e58ee.chunk.js",
     "static/js/413.ad80452a.chunk.js": "/resonate/static/js/413.ad80452a.chunk.js",
     "static/media/2-ogilvy.png": "/resonate/static/media/2-ogilvy.2d3e7ce8e32bd88046eb.png",
@@ -51,16 +51,16 @@
     "static/media/quote-white.svg": "/resonate/static/media/quote-white.696570e7a4d865526ffaac67c3e38dc0.svg",
     "static/media/quote.svg": "/resonate/static/media/quote.e750365b83ec0ed284a1f10541feca04.svg",
     "main.29716e9e.css.map": "/resonate/static/css/main.29716e9e.css.map",
-    "main.0edcfc1a.js.map": "/resonate/static/js/main.0edcfc1a.js.map",
-    "556.052997d7.chunk.css.map": "/resonate/static/css/556.052997d7.chunk.css.map",
-    "556.b5cf2ff0.chunk.js.map": "/resonate/static/js/556.b5cf2ff0.chunk.js.map",
-    "499.de54a993.chunk.js.map": "/resonate/static/js/499.de54a993.chunk.js.map",
-    "92.0791484b.chunk.js.map": "/resonate/static/js/92.0791484b.chunk.js.map",
+    "main.bb98c149.js.map": "/resonate/static/js/main.bb98c149.js.map",
+    "241.ab934558.chunk.css.map": "/resonate/static/css/241.ab934558.chunk.css.map",
+    "241.bc472f02.chunk.js.map": "/resonate/static/js/241.bc472f02.chunk.js.map",
+    "147.88f77580.chunk.js.map": "/resonate/static/js/147.88f77580.chunk.js.map",
+    "964.e7b49a10.chunk.js.map": "/resonate/static/js/964.e7b49a10.chunk.js.map",
     "787.097e58ee.chunk.js.map": "/resonate/static/js/787.097e58ee.chunk.js.map",
     "413.ad80452a.chunk.js.map": "/resonate/static/js/413.ad80452a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29716e9e.css",
-    "static/js/main.0edcfc1a.js"
+    "static/js/main.bb98c149.js"
   ]
 }
