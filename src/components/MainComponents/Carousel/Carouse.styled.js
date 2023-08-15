@@ -9,12 +9,13 @@ export const Layout = styled.div`
   font-style: normal;
   line-height: normal;
   width: 100%;
+  height: 1080px;
 `;
 
 export const SliderBox = styled(Slider)`
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
+  height: 1080px;
 `;
 export const SliderItem = styled.div`
   width: 100%;
@@ -27,7 +28,7 @@ export const ButtonBox = styled.div`
   flex-direction: column;
   gap: 25px;
   position: absolute;
-  bottom: 255px;
+  bottom: 30px;
   right: 50px;
 `;
 export const ButtonPreview = styled.button`

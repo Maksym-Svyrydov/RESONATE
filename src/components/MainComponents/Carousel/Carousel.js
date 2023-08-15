@@ -14,7 +14,7 @@ import {
 } from './Carouse.styled';
 
 import iconArrow from '../../../img/icons/arrow-left.svg';
-import Marketing from '../DesktopComponents/1-Marketing';
+import Marketing from '../DesktopComponents/1-DT-Marketing';
 import Promo from '../DesktopComponents/2-Promo';
 import Branding from '../DesktopComponents/3-Branding';
 import Social from '../DesktopComponents/4-Social';
@@ -69,10 +69,22 @@ const Carousel = () => {
       </SliderBox>
       <ButtonBox>
         <ButtonPreview onClick={goToPreviousSlide}>
-          <img src={iconArrow} alt="button-left" />
+          <img
+            src={iconArrow}
+            alt="button-left"
+            style={{
+              width: '152px',
+            }}
+          />
         </ButtonPreview>
         <ButtonNext onClick={goToNextSlide}>
-          <img src={iconArrow} alt="button-right" />
+          <img
+            src={iconArrow}
+            alt="button-right"
+            style={{
+              width: '152px',
+            }}
+          />
         </ButtonNext>
       </ButtonBox>
     </Layout>
