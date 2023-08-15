@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.29716e9e.css",
-    "main.js": "/resonate/static/js/main.bb98c149.js",
-    "static/css/241.ab934558.chunk.css": "/resonate/static/css/241.ab934558.chunk.css",
-    "static/js/241.bc472f02.chunk.js": "/resonate/static/js/241.bc472f02.chunk.js",
+    "main.js": "/resonate/static/js/main.7229269a.js",
+    "static/css/115.4d997260.chunk.css": "/resonate/static/css/115.4d997260.chunk.css",
+    "static/js/115.945476b9.chunk.js": "/resonate/static/js/115.945476b9.chunk.js",
     "static/js/147.88f77580.chunk.js": "/resonate/static/js/147.88f77580.chunk.js",
     "static/js/964.e7b49a10.chunk.js": "/resonate/static/js/964.e7b49a10.chunk.js",
     "static/js/787.097e58ee.chunk.js": "/resonate/static/js/787.097e58ee.chunk.js",
@@ -51,9 +51,9 @@
     "static/media/quote-white.svg": "/resonate/static/media/quote-white.696570e7a4d865526ffaac67c3e38dc0.svg",
     "static/media/quote.svg": "/resonate/static/media/quote.e750365b83ec0ed284a1f10541feca04.svg",
     "main.29716e9e.css.map": "/resonate/static/css/main.29716e9e.css.map",
-    "main.bb98c149.js.map": "/resonate/static/js/main.bb98c149.js.map",
-    "241.ab934558.chunk.css.map": "/resonate/static/css/241.ab934558.chunk.css.map",
-    "241.bc472f02.chunk.js.map": "/resonate/static/js/241.bc472f02.chunk.js.map",
+    "main.7229269a.js.map": "/resonate/static/js/main.7229269a.js.map",
+    "115.4d997260.chunk.css.map": "/resonate/static/css/115.4d997260.chunk.css.map",
+    "115.945476b9.chunk.js.map": "/resonate/static/js/115.945476b9.chunk.js.map",
     "147.88f77580.chunk.js.map": "/resonate/static/js/147.88f77580.chunk.js.map",
     "964.e7b49a10.chunk.js.map": "/resonate/static/js/964.e7b49a10.chunk.js.map",
     "787.097e58ee.chunk.js.map": "/resonate/static/js/787.097e58ee.chunk.js.map",
@@ -61,6 +61,6 @@
   },
   "entrypoints": [
     "static/css/main.29716e9e.css",
-    "static/js/main.bb98c149.js"
+    "static/js/main.7229269a.js"
   ]
 }
