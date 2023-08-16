@@ -17,7 +17,7 @@ const Main = () => {
   const [screen, setScreen] = useState(() => window.innerWidth);
   useState(() => setScreen(window.innerWidth));
   console.log(screen);
-  if (screen < 1367) {
+  if (screen < 1366) {
     return (
       <>
         <Hero />

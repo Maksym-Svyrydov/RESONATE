@@ -44,10 +44,10 @@ const Marketing = () => {
         <Frame>
           <DotList>
             <DotActive />
-            <Dot></Dot>
-            <Dot></Dot>
-            <Dot></Dot>
-            <Dot></Dot>
+            <Dot />
+            <Dot />
+            <Dot />
+            <Dot />
           </DotList>
         </Frame>
         <BannerList>

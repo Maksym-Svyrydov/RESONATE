@@ -9,6 +9,20 @@ export const Section = styled.section`
   padding-right: 100px;
   padding-top: 176px;
   background: rgba(245, 242, 240, 1);
+  @media screen and (min-width: 1365px) {
+    width: 100%;
+    height: 768px;
+    padding-right: 50px;
+    padding-top: 106px;
+  }
+
+  @media screen and (min-width: 1919px) {
+    width: 100%;
+    height: 1080px;
+    padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 176px;
+  }
 `;
 
 export const ListSection = styled.div`
@@ -16,6 +30,15 @@ export const ListSection = styled.div`
   display: flex;
   box-sizing: border-box;
   max-width: 385px;
+  @media screen and (min-width: 1365px) {
+    margin: 60px 100px auto 0px;
+    width: 260px;
+  }
+  @media screen and (min-width: 1919px) {
+    max-width: 385px;
+    height: 1080px;
+    margin: 80px 138px auto 0px;
+  }
 `;
 export const BannerList = styled.ul`
   margin-bottom: auto;
@@ -28,6 +51,12 @@ export const BannerActive = styled.li`
   line-height: normal;
   font-size: 24px;
   list-style: none;
+  @media screen and (min-width: 1365px) {
+    margin-bottom: 26px;
+  }
+  @media screen and (min-width: 1919px) {
+    margin-bottom: 48px;
+  }
 `;
 export const Banner = styled.li`
   margin-bottom: 48px;
@@ -37,6 +66,12 @@ export const Banner = styled.li`
   line-height: normal;
   font-size: 24px;
   list-style: none;
+  @media screen and (min-width: 1365px) {
+    margin-bottom: 26px;
+  }
+  @media screen and (min-width: 1919px) {
+    margin-bottom: 48px;
+  }
 `;
 export const Frame = styled.div`
   border: 1px solid #283340;
@@ -49,21 +84,43 @@ export const Frame = styled.div`
   font-size: 24px;
   list-style: none;
   height: 384px;
+  @media screen and (min-width: 1365px) {
+    height: 290px;
+  }
+  @media screen and (min-width: 1919px) {
+    margin-bottom: 48px;
+    height: 384px;
+  }
 `;
 export const DotList = styled.ul`
   position: absolute;
   list-style: none;
-  top: 0;
+  top: -1px;
   left: -50px;
   margin: 0px 0px 0px 0px;
+  @media screen and (min-width: 1365px) {
+    left: -48.5px;
+  }
+  @media screen and (min-width: 1919px) {
+    left: -50px;
+  }
 `;
 export const DotActive = styled.li`
-  margin-bottom: 48px;
   width: 21px;
   height: 21px;
   background-color: #283340;
   border-radius: 50%;
   margin-bottom: 60px;
+  @media screen and (min-width: 1365px) {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 41px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 21px;
+    height: 21px;
+    margin-bottom: 60px;
+  }
 `;
 export const Dot = styled.li`
   margin-bottom: 48px;
@@ -72,14 +129,51 @@ export const Dot = styled.li`
   background-color: #828282;
   border-radius: 50%;
   margin-bottom: 60px;
+  @media screen and (min-width: 1365px) {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 41px;
+  }
+  @media screen and (min-width: 1919px) {
+    margin-bottom: 48px;
+    width: 21px;
+    height: 21px;
+  }
 `;
 export const ContentWrapp = styled.div`
   display: flex;
   flex-direction: row;
   width: 481px;
+  outline: 1px solid tomato;
+  @media screen and (min-width: 1365px) {
+    width: 400px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 481px;
+  }
+`;
+export const Wrapp = styled.div`
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 0px 0px 13px 16px;
+  outline: 1px solid blue;
+  @media screen and (min-width: 1365px) {
+    min-width: 400px;
+  }
+  @media screen and (min-width: 1919px) {
+    min-width: 481px;
+  }
+  ${'' /* border-left: 2px solid #cbbe9c; */}
 `;
 export const TitleSection = styled.div`
   margin: 0px 0px 0px 57px;
+  @media screen and (min-width: 1365px) {
+    margin: 0px 0px 0px 20px;
+  }
+  @media screen and (min-width: 1919px) {
+    margin: 0px 0px 0px 57px;
+  }
 `;
 
 export const WrappTitleLeft = styled.div`
@@ -87,7 +181,7 @@ export const WrappTitleLeft = styled.div`
   padding: 75px 0px 0px 0px;
   width: 100%;
   height: 100%;
-  outline: 1px solid blue;
+  ${'' /* outline: 1px solid blue; */}
 `;
 export const TextSectionM = styled.p`
   font-family: 'DM Sans' sans-serif;
@@ -97,6 +191,16 @@ export const TextSectionM = styled.p`
   line-height: 80%;
   color: #cbbe9c;
   margin: 0px 0px 2px 0px;
+  @media screen and (min-width: 1365px) {
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 80%;
+  }
+  @media screen and (min-width: 1919px) {
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 80%;
+  }
 `;
 export const TextSectionT = styled.span`
   display: inline-block;
@@ -106,7 +210,18 @@ export const TextSectionT = styled.span`
   font-weight: 700;
   line-height: 80%;
   margin-left: 304px;
-  /* or 43px */
+  @media screen and (min-width: 1365px) {
+    font-weight: 600;
+    font-size: 110px;
+    line-height: 80%;
+    margin-left: 200px;
+  }
+  @media screen and (min-width: 1919px) {
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 80%;
+    margin-left: 304px;
+  }
 `;
 export const TextSectionI = styled.span`
   display: inline-block;
@@ -119,16 +234,18 @@ export const TextSectionI = styled.span`
   color: #828282;
   width: 110px;
   margin-left: 50px;
+  @media screen and (min-width: 1365px) {
+    font-size: 28px;
+    margin-left: 35px;
+    line-height: 30px;
+  }
+  @media screen and (min-width: 1919px) {
+    font-size: 36px;
+    margin-left: 50px;
+    line-height: 50px;
+  }
 `;
 
-export const Wrapp = styled.div`
-  display: flex;
-  box-sizing: border-box;
-  flex-direction: column;
-  min-width: 481px;
-  padding: 0px 0px 13px 16px;
-  ${'' /* border-left: 2px solid #cbbe9c; */}
-`;
 export const WrappTextSubtitle = styled.div`
   display: flex;
   flex-direction: row;
@@ -162,6 +279,12 @@ export const WrappTitle = styled.p`
   color: #cbbe9c;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 6px 0px;
+  @media screen and (min-width: 1365px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1919px) {
+    font-size: 24px;
+  }
 `;
 export const Text = styled.p`
   color: #283340;
@@ -172,6 +295,12 @@ export const Text = styled.p`
   line-height: normal;
   padding: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
+  @media screen and (min-width: 1365px) {
+    font-size: 12px;
+  }
+  @media screen and (min-width: 1919px) {
+    font-size: 18px;
+  }
 `;
 export const ButtonWrapper = styled.div`
   outline: 1px solid tomato;
@@ -180,6 +309,14 @@ export const ButtonWrapper = styled.div`
   gap: 14px;
   margin: 85px 0px 0px auto;
   max-width: 385px;
+  @media screen and (min-width: 1365px) {
+    gap: 12px;
+    margin: 25px 0px 0px auto;
+  }
+  @media screen and (min-width: 1919px) {
+    gap: 14px;
+    margin: 85px 0px 0px auto;
+  }
 `;
 
 export const List = styled.ul`
@@ -207,6 +344,12 @@ export const TitleItem = styled.p`
   text-transform: uppercase;
   padding: 0px;
   margin: 0px 0px 6px 0px;
+  @media screen and (min-width: 1365px) {
+    font-size: 18px;
+  }
+  @media screen and (min-width: 1919px) {
+    font-size: 24px;
+  }
 `;
 export const TitleText = styled.p`
   font-style: normal;
@@ -216,6 +359,12 @@ export const TitleText = styled.p`
   color: #283340;
   padding: 0px;
   margin: 0px 0px 14px 0px;
+  @media screen and (min-width: 1365px) {
+    font-size: 12px;
+  }
+  @media screen and (min-width: 1919px) {
+    font-size: 18px;
+  }
 `;
 
 export const SectionWrapp = styled.div`
@@ -229,6 +378,14 @@ export const SectionWrapp = styled.div`
   margin-bottom: 0;
   background: #283340;
   padding: 0px 12px 0px 12px;
+  @media screen and (min-width: 1365px) {
+    width: 400px;
+    height: 200px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 580px;
+    height: 260px;
+  }
 `;
 export const ImdBg = styled.img`
   width: 459px;
@@ -239,6 +396,18 @@ export const ImdBg = styled.img`
   bottom: -70px;
   left: -50px;
   overflow: hidden;
+  @media screen and (min-width: 1365px) {
+    width: 400px;
+    height: 260px;
+    bottom: -10px;
+    left: -50px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 459px;
+    height: 300px;
+    bottom: -70px;
+    left: -50px;
+  }
 `;
 export const SectionHelp = styled.div`
   margin: 0px 0px 0px 0px;
@@ -247,6 +416,12 @@ export const SectionHelp = styled.div`
   height: 100%;
   padding: 20px 20px 65px 21px;
   margin-top: auto;
+  @media screen and (min-width: 1365px) {
+    padding: 0px 20px 60px 10px;
+  }
+  @media screen and (min-width: 1919px) {
+    padding: 20px 20px 65px 21px;
+  }
 `;
 
 export const SectionText = styled.span`
@@ -257,4 +432,12 @@ export const SectionText = styled.span`
   line-height: normal;
   color: #f5f2f0;
   margin-top: auto;
+  @media screen and (min-width: 1365px) {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  @media screen and (min-width: 1919px) {
+    font-size: 24px;
+    font-weight: 400;
+  }
 `;

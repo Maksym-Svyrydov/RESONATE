@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 export const Layout = styled.div`
   display: flex;
+  ${'' /* position: relative; */}
   flex-direction: row;
   jusify-content: flex-start;
   align-items: flex-start;
@@ -13,11 +14,26 @@ export const Layout = styled.div`
 `;
 export const Wrapper = styled.div`
   display: flex;
+  ${'' /* position: absolute; */}
+  top: 0;
+  left: 0;
   flex-direction: column;
   box-sizing: border-box;
-  min-height: 23065px;
-  padding: 0px 35px;
+  ${'' /* width: 400px; */}
+  height: 15000px;
+  ${'' /* min-height: 23065px; */}
+
   outline: 1px solid blue;
+  @media screen and (max-width: 1364px) {
+    visually: hidden;
+  }
+  @media screen and (min-width: 1365px) {
+    padding: 0px 20px;
+    width: 294px;
+  }
+  @media screen and (min-width: 1919px) {
+    padding: 0px 35px;
+  }
 `;
 export const WrapperContent = styled.div`
   display: flex;

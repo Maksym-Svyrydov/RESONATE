@@ -11,6 +11,7 @@ import {
   ButtonBox,
   ButtonPreview,
   ButtonNext,
+  Arrow,
 } from './Carouse.styled';
 
 import iconArrow from '../../../img/icons/arrow-left.svg';
@@ -33,7 +34,7 @@ const Carousel = () => {
     arrows: false,
     responsive: [
       {
-        breakpoint: 1280,
+        breakpoint: 1366,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
@@ -69,22 +70,10 @@ const Carousel = () => {
       </SliderBox>
       <ButtonBox>
         <ButtonPreview onClick={goToPreviousSlide}>
-          <img
-            src={iconArrow}
-            alt="button-left"
-            style={{
-              width: '152px',
-            }}
-          />
+          <Arrow src={iconArrow} alt="button-left" />
         </ButtonPreview>
         <ButtonNext onClick={goToNextSlide}>
-          <img
-            src={iconArrow}
-            alt="button-right"
-            style={{
-              width: '152px',
-            }}
-          />
+          <Arrow src={iconArrow} alt="button-right" />
         </ButtonNext>
       </ButtonBox>
     </Layout>

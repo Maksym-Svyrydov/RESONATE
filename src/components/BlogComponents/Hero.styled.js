@@ -4,6 +4,7 @@ export const Section = styled.section`
   box-sizing: border-box;
   flex-direction: column;
   width: 100%;
+  height: 100%;
   padding-top: 190px;
   background: #283340;
   color: #f5f2f0;
@@ -11,6 +12,14 @@ export const Section = styled.section`
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   line-height: normal;
+  @media screen and (max-width: 1364px) {
+  }
+  @media screen and (min-width: 1365px) {
+    height: 567px;
+  }
+  @media screen and (min-width: 1919px) {
+    height: 567px;
+  }
 `;
 export const Wrapper = styled.div`
   margin: 0 auto;

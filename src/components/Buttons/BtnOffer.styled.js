@@ -12,6 +12,11 @@ export const Wrapper = styled.div`
   margin-right: auto;
   margin-left: auto;
   margin-top: 96px;
+
+  @media screen and (min-width: 1365px) {
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
   @media screen and (min-width: 1919px) {
     width: 380px;
     height: 80px;

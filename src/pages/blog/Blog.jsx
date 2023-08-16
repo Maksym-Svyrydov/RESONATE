@@ -8,8 +8,8 @@ import { StartStrategy } from '../../components/BlogComponents/LnkdnArticle';
 import { Owner } from '../../components/BlogComponents/Owner';
 import { Profile } from '../../components/BlogComponents/Profiles';
 
-import { Layout } from '../../components/BlogComponents/Layuout.styled';
 import {
+  Layout,
   Wrapper,
   WrapperContent,
 } from '../../components/BlogComponents/Layuout.styled';
@@ -20,7 +20,87 @@ const Blog = () => {
       <Hero />
       <Layout>
         <Wrapper>
+          <div
+            style={{
+              height: '100px',
+            }}
+          />
           <ContactForm />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '1000px',
+            }}
+          />
+          <div
+            style={{
+              height: '100%',
+            }}
+          />
         </Wrapper>
         <WrapperContent>
           <Intro />

@@ -10,12 +10,20 @@ export const Layout = styled.div`
   line-height: normal;
   width: 100%;
   height: 1080px;
+  @media screen and (min-width: 1365px) {
+    width: 100%;
+    height: 768px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 100%;
+    height: 1080px;
+  }
 `;
 
 export const SliderBox = styled(Slider)`
   box-sizing: border-box;
   width: 100%;
-  height: 1080px;
+  height: 100%px;
 `;
 export const SliderItem = styled.div`
   width: 100%;
@@ -30,6 +38,16 @@ export const ButtonBox = styled.div`
   position: absolute;
   bottom: 30px;
   right: 50px;
+  @media screen and (min-width: 1365px) {
+    bottom: 40px;
+    right: 20px;
+    gap: 18px;
+  }
+  @media screen and (min-width: 1919px) {
+    bottom: 30px;
+    right: 50px;
+    gap: 25px;
+  }
 `;
 export const ButtonPreview = styled.button`
   margin: 0;
@@ -57,5 +75,13 @@ export const ButtonNext = styled.button`
   :focus {
     transform: scale(1.2) rotate(180deg);
     cursor: pointer;
+  }
+`;
+export const Arrow = styled.img`
+  @media screen and (min-width: 1365px) {
+    width: 100px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 152px;
   }
 `;

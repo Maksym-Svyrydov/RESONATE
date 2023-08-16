@@ -3,10 +3,10 @@ import styled from 'styled-components';
 export const FormContainer = styled.div`
   display: flex;
   position: sticky;
-  top: 20px;
+  top: 130px;
   flex-direction: column;
-  max-height: 580px;
-  max-width: 339px;
+  height: 580px;
+  width: 339px;
   padding: 17px 14px;
   background: #283340;
   color: #f5f2f0;
@@ -14,16 +14,36 @@ export const FormContainer = styled.div`
   font-style: normal;
   line-height: normal;
 
+  @media screen and (min-width: 1365px) {
+    height: 452px;
+    width: 260px;
+    padding: 7px 4px;
+    position: sticky;
+    top: 130px;
+  }
+  @media screen and (min-width: 1919px) {
+    height: 580px;
+    width: 339px;
+    padding: 17px 14px;
+  }
   ${'' /* margin-right: auto; */}
 `;
 export const Wrapper = styled.div`
   display: flex;
-  padding: 22px 37px 36px 37px;
+
   flex-direction: column;
   border: 1px solid rgba(203, 190, 156, 0.5);
   jusify-content: center;
   align-items: center;
-  margin-bottom: 31px;
+
+  @media screen and (min-width: 1365px) {
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 1919px) {
+    padding: 22px 37px 36px 37px;
+    margin-bottom: 31px;
+  }
 `;
 export const Tiitle = styled.p`
   color: #f5f2f0;
@@ -64,12 +84,16 @@ export const Link = styled.a``;
 export const Icon = styled.img``;
 export const WrapperBottom = styled.div`
   display: flex;
-
-  padding: 26px 55px 26px 55px;
   flex-direction: column;
   border: 1px solid rgba(203, 190, 156, 0.5);
   jusify-content: center;
   align-items: center;
+  @media screen and (min-width: 1365px) {
+    padding: 0px 10px 20px 10px;
+  }
+  @media screen and (min-width: 1919px) {
+    padding: 26px 55px 26px 55px;
+  }
 `;
 export const TitleBottom = styled.p`
   color: #f5f2f0;
