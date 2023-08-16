@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.29716e9e.css",
-    "main.js": "/resonate/static/js/main.7229269a.js",
+    "main.js": "/resonate/static/js/main.8b49bf74.js",
     "static/css/115.4d997260.chunk.css": "/resonate/static/css/115.4d997260.chunk.css",
-    "static/js/115.945476b9.chunk.js": "/resonate/static/js/115.945476b9.chunk.js",
-    "static/js/147.88f77580.chunk.js": "/resonate/static/js/147.88f77580.chunk.js",
-    "static/js/964.e7b49a10.chunk.js": "/resonate/static/js/964.e7b49a10.chunk.js",
+    "static/js/115.00245e0c.chunk.js": "/resonate/static/js/115.00245e0c.chunk.js",
+    "static/js/147.4d16c96b.chunk.js": "/resonate/static/js/147.4d16c96b.chunk.js",
+    "static/js/964.20e1668b.chunk.js": "/resonate/static/js/964.20e1668b.chunk.js",
     "static/js/787.097e58ee.chunk.js": "/resonate/static/js/787.097e58ee.chunk.js",
     "static/js/413.ad80452a.chunk.js": "/resonate/static/js/413.ad80452a.chunk.js",
     "static/media/2-ogilvy.png": "/resonate/static/media/2-ogilvy.2d3e7ce8e32bd88046eb.png",
@@ -38,6 +38,7 @@
     "static/media/telegram.svg": "/resonate/static/media/telegram.def72a29714eb8d33491476b60cf7661.svg",
     "static/media/twitter.svg": "/resonate/static/media/twitter.0e376fefe6355cca634c95cbb11c711e.svg",
     "static/media/Twitter.svg": "/resonate/static/media/Twitter.d5aa28640b3b4bbf46d06e4eae08605e.svg",
+    "index.html": "/resonate/index.html",
     "static/media/slick.woff": "/resonate/static/media/slick.295183786cd8a1389865.woff",
     "static/media/mail.svg": "/resonate/static/media/mail.c752522f5a7a8673c4d3216aa568da84.svg",
     "static/media/arrow-left.svg": "/resonate/static/media/arrow-left.add98315b16eee790d7aef027fa3cf2b.svg",
@@ -45,22 +46,21 @@
     "static/media/Facebook Icon.svg": "/resonate/static/media/Facebook Icon.fb308f8525dfb4f9332b1d56ca80201c.svg",
     "static/media/Facebook.svg": "/resonate/static/media/Facebook.fb308f8525dfb4f9332b1d56ca80201c.svg",
     "static/media/linkiedIn.svg": "/resonate/static/media/linkiedIn.343c07af4176ecc23f210bada684b0d5.svg",
-    "index.html": "/resonate/index.html",
     "static/media/Arrow_link_right.svg": "/resonate/static/media/Arrow_link_right.fb69f8036f5508d6b774d03aa5d64f17.svg",
     "static/media/youtube.svg": "/resonate/static/media/youtube.fbd864dde048ab903d0993f9041d9b47.svg",
     "static/media/quote-white.svg": "/resonate/static/media/quote-white.696570e7a4d865526ffaac67c3e38dc0.svg",
     "static/media/quote.svg": "/resonate/static/media/quote.e750365b83ec0ed284a1f10541feca04.svg",
     "main.29716e9e.css.map": "/resonate/static/css/main.29716e9e.css.map",
-    "main.7229269a.js.map": "/resonate/static/js/main.7229269a.js.map",
+    "main.8b49bf74.js.map": "/resonate/static/js/main.8b49bf74.js.map",
     "115.4d997260.chunk.css.map": "/resonate/static/css/115.4d997260.chunk.css.map",
-    "115.945476b9.chunk.js.map": "/resonate/static/js/115.945476b9.chunk.js.map",
-    "147.88f77580.chunk.js.map": "/resonate/static/js/147.88f77580.chunk.js.map",
-    "964.e7b49a10.chunk.js.map": "/resonate/static/js/964.e7b49a10.chunk.js.map",
+    "115.00245e0c.chunk.js.map": "/resonate/static/js/115.00245e0c.chunk.js.map",
+    "147.4d16c96b.chunk.js.map": "/resonate/static/js/147.4d16c96b.chunk.js.map",
+    "964.20e1668b.chunk.js.map": "/resonate/static/js/964.20e1668b.chunk.js.map",
     "787.097e58ee.chunk.js.map": "/resonate/static/js/787.097e58ee.chunk.js.map",
     "413.ad80452a.chunk.js.map": "/resonate/static/js/413.ad80452a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29716e9e.css",
-    "static/js/main.7229269a.js"
+    "static/js/main.8b49bf74.js"
   ]
 }
