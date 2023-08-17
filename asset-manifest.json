@@ -1,14 +1,15 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.29716e9e.css",
-    "main.js": "/resonate/static/js/main.8b49bf74.js",
-    "static/css/115.4d997260.chunk.css": "/resonate/static/css/115.4d997260.chunk.css",
-    "static/js/115.00245e0c.chunk.js": "/resonate/static/js/115.00245e0c.chunk.js",
-    "static/js/147.4d16c96b.chunk.js": "/resonate/static/js/147.4d16c96b.chunk.js",
-    "static/js/964.20e1668b.chunk.js": "/resonate/static/js/964.20e1668b.chunk.js",
+    "main.js": "/resonate/static/js/main.aedb0f90.js",
+    "static/css/495.dab26b87.chunk.css": "/resonate/static/css/495.dab26b87.chunk.css",
+    "static/js/495.b9db08da.chunk.js": "/resonate/static/js/495.b9db08da.chunk.js",
+    "static/js/147.304b3212.chunk.js": "/resonate/static/js/147.304b3212.chunk.js",
+    "static/js/964.16e0c9c8.chunk.js": "/resonate/static/js/964.16e0c9c8.chunk.js",
     "static/js/787.097e58ee.chunk.js": "/resonate/static/js/787.097e58ee.chunk.js",
     "static/js/413.ad80452a.chunk.js": "/resonate/static/js/413.ad80452a.chunk.js",
     "static/media/2-ogilvy.png": "/resonate/static/media/2-ogilvy.2d3e7ce8e32bd88046eb.png",
+    "static/media/Zoo-Bg-Img.png": "/resonate/static/media/Zoo-Bg-Img.76c3718e7ba477f67109.png",
     "static/media/3-Lidl_GB.png": "/resonate/static/media/3-Lidl_GB.3c68782dbbdcdfef2b7c.png",
     "static/media/5-Binance.png": "/resonate/static/media/5-Binance.760d616a0eed944a3ea4.png",
     "static/media/8-LinkedIn.png": "/resonate/static/media/8-LinkedIn.e97cf074af265fab57b9.png",
@@ -51,16 +52,16 @@
     "static/media/quote-white.svg": "/resonate/static/media/quote-white.696570e7a4d865526ffaac67c3e38dc0.svg",
     "static/media/quote.svg": "/resonate/static/media/quote.e750365b83ec0ed284a1f10541feca04.svg",
     "main.29716e9e.css.map": "/resonate/static/css/main.29716e9e.css.map",
-    "main.8b49bf74.js.map": "/resonate/static/js/main.8b49bf74.js.map",
-    "115.4d997260.chunk.css.map": "/resonate/static/css/115.4d997260.chunk.css.map",
-    "115.00245e0c.chunk.js.map": "/resonate/static/js/115.00245e0c.chunk.js.map",
-    "147.4d16c96b.chunk.js.map": "/resonate/static/js/147.4d16c96b.chunk.js.map",
-    "964.20e1668b.chunk.js.map": "/resonate/static/js/964.20e1668b.chunk.js.map",
+    "main.aedb0f90.js.map": "/resonate/static/js/main.aedb0f90.js.map",
+    "495.dab26b87.chunk.css.map": "/resonate/static/css/495.dab26b87.chunk.css.map",
+    "495.b9db08da.chunk.js.map": "/resonate/static/js/495.b9db08da.chunk.js.map",
+    "147.304b3212.chunk.js.map": "/resonate/static/js/147.304b3212.chunk.js.map",
+    "964.16e0c9c8.chunk.js.map": "/resonate/static/js/964.16e0c9c8.chunk.js.map",
     "787.097e58ee.chunk.js.map": "/resonate/static/js/787.097e58ee.chunk.js.map",
     "413.ad80452a.chunk.js.map": "/resonate/static/js/413.ad80452a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29716e9e.css",
-    "static/js/main.8b49bf74.js"
+    "static/js/main.aedb0f90.js"
   ]
 }
