@@ -5,13 +5,22 @@ export const Section = styled.div`
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  width: 1034px;
+
   height: 100%;
   ${'' /* background: #f5f2f0; */}
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   line-height: normal;
   outline: 1px solid tomato;
+  @media screen and (max-width: 1364px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 1365px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 1034px;
+  }
 `;
 export const AuthorWrap = styled.div`
   display: flex;

@@ -1,19 +1,18 @@
 import styled from 'styled-components';
 
 export const FormContainer = styled.div`
-  display: flex;
-  position: sticky;
-  top: 130px;
   flex-direction: column;
-  height: 580px;
-  width: 339px;
-  padding: 17px 14px;
   background: #283340;
   color: #f5f2f0;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
 
+  @media screen and (max-width: 1364px) {
+    visibility: hidden;
+  }
   @media screen and (min-width: 1365px) {
     height: 452px;
     width: 260px;
@@ -22,6 +21,10 @@ export const FormContainer = styled.div`
     top: 130px;
   }
   @media screen and (min-width: 1919px) {
+    display: flex;
+    position: sticky;
+    top: 0px;
+    left: 0;
     height: 580px;
     width: 339px;
     padding: 17px 14px;

@@ -4,8 +4,17 @@ export const Section = styled.div`
   box-sizing: border-box;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-  width: 1034px;
+
   line-height: normal;
+  @media screen and (max-width: 1364px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 1365px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 1034px;
+  }
 `;
 export const Wrapper = styled.div`
   display: flex;

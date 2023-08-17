@@ -15,11 +15,11 @@ import {
 } from './Carouse.styled';
 
 import iconArrow from '../../../img/icons/arrow-left.svg';
-import Marketing from '../DesktopComponents/1-DT-Marketing';
-import Promo from '../DesktopComponents/2-Promo';
-import Branding from '../DesktopComponents/3-Branding';
-import Social from '../DesktopComponents/4-Social';
-import Develop from '../DesktopComponents/5-Develop';
+import Marketing from '../DesktopComponents/2-Promo/1-DT-Marketing';
+import Promo from '../DesktopComponents/2-Promo/2-DT-Promo';
+import Branding from '../DesktopComponents/2-Promo/3-DT-Branding';
+import Social from '../DesktopComponents/2-Promo/4-DT-Social';
+import Develop from '../DesktopComponents/2-Promo/5-DT-Develop';
 const Carousel = () => {
   const sliderRef = useRef(null);
   const settings = {

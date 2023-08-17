@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 export const Layout = styled.div`
   display: flex;
-  ${'' /* position: relative; */}
   flex-direction: row;
+  flex-wrap: wrap;
   jusify-content: flex-start;
   align-items: flex-start;
   box-sizing: border-box;
@@ -10,29 +10,26 @@ export const Layout = styled.div`
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   line-height: normal;
-  margin-top: 10px;
 `;
 export const Wrapper = styled.div`
   display: flex;
-  ${'' /* position: absolute; */}
-  top: 0;
-  left: 0;
   flex-direction: column;
-  box-sizing: border-box;
-  ${'' /* width: 400px; */}
-  height: 15000px;
-  ${'' /* min-height: 23065px; */}
-
+  jusify-content: center;
+  width: 0;
+  height: 0;
   outline: 1px solid blue;
   @media screen and (max-width: 1364px) {
-    visually: hidden;
+    visibility: hidden;
   }
   @media screen and (min-width: 1365px) {
-    padding: 0px 20px;
+    padding: 0px 0px;
     width: 294px;
+    margin-left: 34px;
   }
   @media screen and (min-width: 1919px) {
-    padding: 0px 35px;
+    padding: 0px 0px;
+    width: 359px;
+    margin-left: 84px;
   }
 `;
 export const WrapperContent = styled.div`
@@ -40,8 +37,17 @@ export const WrapperContent = styled.div`
   flex-direction: column;
   padding: 0px 0px;
   margin-right: auto;
-  margin-left: 35px;
+  @media screen and (max-width: 1364px) {
+    margin-left: 9px;
+  }
+  @media screen and (min-width: 1365px) {
+    margin-left: 42px;
+  }
+  @media screen and (min-width: 1919px) {
+    margin-left: 84px;
+  }
 `;
+
 export const Elem1 = styled.div`
   margin-top: 300px;
   outline: 1px solid green;

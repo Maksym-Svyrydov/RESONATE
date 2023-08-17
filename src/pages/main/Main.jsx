@@ -12,6 +12,7 @@ import Reviews from '../../components/MainComponents/6-Reviews/Reviews';
 import Articles from '../../components/MainComponents/7-Articles/Articles';
 import Footer from '../../components/MainComponents/8-Footer/Footer';
 import Carousel from '../../components/MainComponents/Carousel/Carousel';
+import { SliderCases } from '../../components/MainComponents/DesktopComponents/3-Cases/SliderCases';
 
 const Main = () => {
   const [screen, setScreen] = useState(() => window.innerWidth);
@@ -39,8 +40,8 @@ const Main = () => {
   return (
     <>
       <Hero />
-
       <Carousel />
+      <SliderCases />
     </>
   );
 };

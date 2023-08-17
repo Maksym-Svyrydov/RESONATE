@@ -5,13 +5,20 @@ export const Section = styled.div`
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
-  width: 1034px;
-
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   line-height: normal;
   ${'' /* background-color: rgba(203, 190, 156, 0.15); */}
   outline: 1px solid tomato;
+  @media screen and (max-width: 1364px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 1365px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 1034px;
+  }
 `;
 export const Title = styled.h2`
   color: #283340;
@@ -44,4 +51,15 @@ export const TxtAccent = styled.span`
   font-weight: 700;
   line-height: normal;
   text-decoration-line: underline;
+`;
+export const Img = styled.img`
+  @media screen and (max-width: 1364px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 1365px) {
+    width: 768px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 1034px;
+  }
 `;

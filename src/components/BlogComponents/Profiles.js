@@ -1,6 +1,13 @@
 import statImg from '../../img/lnkdn-img/7-Statistics.png';
 import lnkdnImg from '../../img/lnkdn-img/8-LinkedIn.png';
-import { Section, Title, SubTitle, Text, TxtAccent } from './Profiles.styled';
+import {
+  Section,
+  Title,
+  SubTitle,
+  Text,
+  TxtAccent,
+  Img,
+} from './Profiles.styled';
 
 export const Profile = () => {
   return (
@@ -149,7 +156,7 @@ export const Profile = () => {
         </TxtAccent>
       </Text>
       <div>
-        <img src={statImg} alt="Statista" width={1034} />
+        <Img src={statImg} alt="Statista" />
       </div>
       <h3>Better employer branding</h3>
       <Text>
@@ -200,7 +207,7 @@ export const Profile = () => {
         likely to visit your website or contact you for business opportunities.
       </Text>
       <div>
-        <img src={lnkdnImg} alt="Linkedin" width={1034} />
+        <Img src={lnkdnImg} alt="Linkedin" width={1034} />
       </div>
       <Title>Before you start with your LinkedIn strategy</Title>
       <Text>

@@ -22,6 +22,15 @@ export const Title = styled.p`
   line-height: 120%; /* 86.4px */
   text-transform: uppercase;
   margin: auto;
+  @media screen and (max-width: 1364px) {
+    font-size: 55px;
+  }
+  @media screen and (min-width: 1365px) {
+    font-size: 55px;
+  }
+  @media screen and (min-width: 1919px) {
+    font-size: 72px;
+  }
 `;
 export const TitleAccent = styled.span`
   color: #cbbe9c;
@@ -40,6 +49,18 @@ export const Item = styled.li`
   width: 280px;
   height: 97px;
   padding: 0;
+  @media screen and (max-width: 1364px) {
+    width: 200px;
+    height: 66px;
+  }
+  @media screen and (min-width: 1365px) {
+    width: 200px;
+    height: 66px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 280px;
+    height: 97px;
+  }
 `;
 export const Facebook = styled.a`
   display: flex;
@@ -49,7 +70,6 @@ export const Facebook = styled.a`
   width: 100%;
   height: 100%;
   background-color: #3b5998;
-
   text-decoration: none;
   color: #fff;
   padding-left: 26px;
@@ -58,7 +78,6 @@ export const Twit = styled.a`
   display: flex;
   border-radius: 12px;
   background-color: #1ca1f2;
-
   text-decoration: none;
   color: #fff;
   width: 100%;
@@ -73,7 +92,6 @@ export const Lnkdn = styled.a`
   align-items: center;
   border-radius: 12px;
   background-color: #0077b6;
-
   text-decoration: none;
   color: #fff;
   width: 100%;
@@ -81,16 +99,36 @@ export const Lnkdn = styled.a`
   padding-left: 26px;
 `;
 export const Img = styled.img`
-  width: 35px;
   margin-right: 35px;
+  @media screen and (max-width: 1364px) {
+    width: 25px;
+    margin-right: 17px;
+  }
+  @media screen and (min-width: 1365px) {
+    width: 30px;
+    margin-right: 20px;
+  }
+  @media screen and (min-width: 1919px) {
+    width: 35px;
+    margin-right: 35px;
+  }
 `;
 export const LinkTxt = styled.span`
   color: #fff;
-  font-size: 32px;
   font-style: normal;
+  font-size: 22px;
   font-weight: 700;
   line-height: 120%; /* 38.4px */
   letter-spacing: 0.96px;
   margin: 0;
   padding: 0;
+  @media screen and (max-width: 1364px) {
+    font-size: 16px;
+  }
+  @media screen and (min-width: 1365px) {
+    font-size: 20px;
+  }
+  @media screen and (min-width: 1919px) {
+    font-size: 32px;
+  }
 `;

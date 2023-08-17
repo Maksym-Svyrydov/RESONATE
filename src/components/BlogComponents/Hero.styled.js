@@ -17,9 +17,6 @@ export const Section = styled.section`
   @media screen and (min-width: 1365px) {
     height: 567px;
   }
-  @media screen and (min-width: 1919px) {
-    height: 567px;
-  }
 `;
 export const Wrapper = styled.div`
   margin: 0 auto;

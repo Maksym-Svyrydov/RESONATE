@@ -2,6 +2,7 @@ import styled from 'styled-components';
 export const Section = styled.section`
   display: flex;
   box-sizing: border-box;
+  position: relative;
   flex-direction: row;
   width: 100%;
   height: 1080px;
@@ -135,7 +136,7 @@ export const Dot = styled.li`
     margin-bottom: 41px;
   }
   @media screen and (min-width: 1919px) {
-    margin-bottom: 48px;
+    margin-bottom: 60px;
     width: 21px;
     height: 21px;
   }
@@ -144,7 +145,6 @@ export const ContentWrapp = styled.div`
   display: flex;
   flex-direction: row;
   width: 481px;
-  outline: 1px solid tomato;
   @media screen and (min-width: 1365px) {
     width: 400px;
   }
@@ -157,7 +157,6 @@ export const Wrapp = styled.div`
   box-sizing: border-box;
   flex-direction: column;
   padding: 0px 0px 13px 16px;
-  outline: 1px solid blue;
   @media screen and (min-width: 1365px) {
     min-width: 400px;
   }
@@ -181,7 +180,7 @@ export const WrappTitleLeft = styled.div`
   padding: 75px 0px 0px 0px;
   width: 100%;
   height: 100%;
-  ${'' /* outline: 1px solid blue; */}
+  ${'' /* ; */}
 `;
 export const TextSectionM = styled.p`
   font-family: 'DM Sans' sans-serif;
@@ -190,16 +189,18 @@ export const TextSectionM = styled.p`
   font-size: 160px;
   line-height: 80%;
   color: #cbbe9c;
-  margin: 0px 0px 2px 0px;
+
   @media screen and (min-width: 1365px) {
     font-weight: 600;
     font-size: 110px;
     line-height: 80%;
+    margin: 0px 0px 11px 0px;
   }
   @media screen and (min-width: 1919px) {
     font-weight: 700;
     font-size: 160px;
     line-height: 80%;
+    margin: 0px 0px 21px 0px;
   }
 `;
 export const TextSectionT = styled.span`
@@ -214,7 +215,7 @@ export const TextSectionT = styled.span`
     font-weight: 600;
     font-size: 110px;
     line-height: 80%;
-    margin-left: 200px;
+    margin-left: 160px;
   }
   @media screen and (min-width: 1919px) {
     font-weight: 700;
@@ -229,10 +230,10 @@ export const TextSectionI = styled.span`
   font-style: italic;
   font-size: 36px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 50px;
   color: #828282;
-  width: 110px;
+  width: 140px;
   margin-left: 50px;
   @media screen and (min-width: 1365px) {
     font-size: 28px;
@@ -303,7 +304,6 @@ export const Text = styled.p`
   }
 `;
 export const ButtonWrapper = styled.div`
-  outline: 1px solid tomato;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -381,10 +381,12 @@ export const SectionWrapp = styled.div`
   @media screen and (min-width: 1365px) {
     width: 400px;
     height: 200px;
+    margin-top: 90px;
   }
   @media screen and (min-width: 1919px) {
     width: 580px;
     height: 260px;
+    margin-top: 110px;
   }
 `;
 export const ImdBg = styled.img`
@@ -397,16 +399,16 @@ export const ImdBg = styled.img`
   left: -50px;
   overflow: hidden;
   @media screen and (min-width: 1365px) {
-    width: 400px;
-    height: 260px;
-    bottom: -10px;
-    left: -50px;
+    width: 300px;
+    height: 240px;
+    bottom: -85px;
+    left: 0px;
   }
   @media screen and (min-width: 1919px) {
-    width: 459px;
-    height: 300px;
-    bottom: -70px;
-    left: -50px;
+    width: 384px;
+    height: 280px;
+    bottom: -95px;
+    left: 0px;
   }
 `;
 export const SectionHelp = styled.div`
