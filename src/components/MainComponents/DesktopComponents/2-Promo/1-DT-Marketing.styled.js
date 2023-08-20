@@ -179,7 +179,7 @@ export const WrappTitleLeft = styled.div`
   margin: 0px 0px auto 0px;
   padding: 75px 0px 0px 0px;
   width: 100%;
-  height: 100%;
+  height: 100%;dsf,mn
   ${'' /* ; */}
 `;
 export const TextSectionM = styled.p`

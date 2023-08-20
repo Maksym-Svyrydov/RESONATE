@@ -27,7 +27,6 @@ const Item = styled.li`
   );
   border: 1px solid #cbbe9c;
   background-image: url(${myImage});
-  background-repeat: no-repeat;
   background-size: cover;
 `;
 const Cases = () => {
