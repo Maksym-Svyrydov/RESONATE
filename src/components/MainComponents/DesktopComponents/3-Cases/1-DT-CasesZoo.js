@@ -8,7 +8,11 @@ import {
   TitleWrapp,
   TextTitle,
   TextAccent,
+  LogoWrapp,
+  Logo,
+  LogoText,
   ArrowWrapper,
+  ArrowImg,
   InfoLayout,
   TextWrapper,
   DecriptionSection,
@@ -44,16 +48,17 @@ const Zoo = () => {
           <TextTitle>
             with
             <TextAccent>KHARKIV ZOO</TextAccent>
-            <div>
-              <div>
-                <img src={logoZoo} alt="Logo Zoo" />
-              </div>
-              <div>
-                <p>KHARKIV</p>
-                <p>ZOO</p>
-              </div>
-            </div>
           </TextTitle>
+          <LogoWrapp>
+            <div>
+              <Logo src={logoZoo} alt="Logo Zoo" />
+            </div>
+            <div>
+              <LogoText>KHARKIV</LogoText>
+              <LogoText>ZOO</LogoText>
+            </div>
+          </LogoWrapp>
+
           <div>
             <div>{/* <img src={bgImg} alt="Mankey in Zoo" /> */}</div>
           </div>
@@ -62,14 +67,7 @@ const Zoo = () => {
 
       <InfoLayout>
         <ArrowWrapper>
-          <img
-            src={arrow}
-            alt="Arrow"
-            style={{
-              width: ' 114.315px',
-              height: '128px',
-            }}
-          />
+          <ArrowImg src={arrow} alt="Arrow" />
         </ArrowWrapper>
 
         <DecriptionSection>

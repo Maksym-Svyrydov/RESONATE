@@ -47,19 +47,19 @@ const CashYou = () => {
           <TextTitle>
             with
             <TextAccent>CashYou</TextAccent>
-            <LogoWrapp>
-              <img
-                src={logo}
-                alt="Logo Intericco"
-                style={{
-                  width: '226px',
-                  height: '178px',
-                  marginLeft: '0px',
-                  marginRight: 'auto',
-                }}
-              />
-            </LogoWrapp>
           </TextTitle>
+          <LogoWrapp>
+            <img
+              src={logo}
+              alt="Logo Intericco"
+              style={{
+                width: '226px',
+                height: '178px',
+                marginLeft: '0px',
+                marginRight: 'auto',
+              }}
+            />
+          </LogoWrapp>
         </TitleWrapp>
       </LogoSection>
 

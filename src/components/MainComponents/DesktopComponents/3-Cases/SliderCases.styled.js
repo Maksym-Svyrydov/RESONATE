@@ -9,6 +9,7 @@ export const SliderContainer = styled(Slider)`
   width: 100%;
   height: 1080px;
   padding: 0;
+
   .slick-slider {
     box-sizing: border-box;
     height: 1080px;
@@ -16,21 +17,37 @@ export const SliderContainer = styled(Slider)`
     align-items: center;
     justify-content: center;
   }
+  .slick-dots li button:hover:before,
+  .slick-dots li button:focus:before {
+    opacity: 0;
+  }
   .slick-dots li.slick-active button:before {
     opacity: 0;
+    & :hover {
+      opacity: 0;
+    }
   }
   .slick-dots li button:before {
     opacity: 0;
   }
   .slick-dots li button {
-    width: 17px;
-    height: 17px;
     border-radius: 100%;
     background: #c1c1c1;
     align-items: center;
     justify-content: center;
     margin-top: auto;
     margin-bottom: auto;
+    & :hover {
+      opacity: 0;
+    }
+    @media screen and (min-width: 1365px) {
+      width: 14px;
+      height: 14px;
+    }
+    @media screen and (min-width: 1919px) {
+      width: 17px;
+      height: 17px;
+    }
   }
   .slick-dots li.slick-active button {
     width: 21px;
@@ -41,6 +58,17 @@ export const SliderContainer = styled(Slider)`
     margin-top: auto;
     margin-bottom: auto;
     justify-content: center;
+    & :hover {
+      opacity: 0;
+    }
+    @media screen and (min-width: 1365px) {
+      width: 17px;
+      height: 17px;
+    }
+    @media screen and (min-width: 1919px) {
+      width: 21px;
+      height: 21px;
+    }
   }
   @media screen and (min-width: 1365px) {
     width: 100%;
@@ -84,17 +112,33 @@ export const ButtonList = styled.ul`
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  height: 35px;
-  gap: 100px;
   justify-content: center;
   align-items: baseline;
-  padding-bottom: 50px;
+
+  @media screen and (min-width: 1365px) {
+    padding-bottom: 50px;
+    height: 25px;
+    gap: 70px;
+  }
+  @media screen and (min-width: 1919px) {
+    padding-bottom: 50px;
+    height: 35px;
+    gap: 100px;
+  }
 `;
 export const Frame = styled.div`
-  width: 395px;
   height: 1px;
   position: absolute;
-  bottom: 90px;
-  right: 695px;
+
   background-color: #cbbe9c;
+  @media screen and (min-width: 1365px) {
+    bottom: 81px;
+    right: 36%;
+    width: 300px;
+  }
+  @media screen and (min-width: 1919px) {
+    bottom: 90px;
+    right: 695px;
+    width: 395px;
+  }
 `;

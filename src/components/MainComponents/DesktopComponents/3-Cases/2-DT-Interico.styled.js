@@ -60,6 +60,7 @@ export const LogoWrapp = styled.div`
 export const LogoText = styled.span`
   font-size: 66px;
   letter-spacing: 10px;
+  color: #f5f2f0;
 `;
 export const ArrowWrapper = styled.div`
   height: 100%;

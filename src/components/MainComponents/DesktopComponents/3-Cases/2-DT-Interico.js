@@ -49,21 +49,21 @@ const Intericco = () => {
           <TextTitle>
             with
             <TextAccent>intericco</TextAccent>
-            <LogoWrapp>
-              <LogoText>int</LogoText>
-              <img
-                src={logo}
-                alt="Logo Intericco"
-                style={{
-                  width: ' 92px',
-                  height: '90px',
-                  marginLeft: '10px',
-                  marginRight: '10px',
-                }}
-              />
-              <LogoText>ricco</LogoText>
-            </LogoWrapp>
           </TextTitle>
+          <LogoWrapp>
+            <LogoText>int</LogoText>
+            <img
+              src={logo}
+              alt="Logo Intericco"
+              style={{
+                width: ' 92px',
+                height: '90px',
+                marginLeft: '10px',
+                marginRight: '10px',
+              }}
+            />
+            <LogoText>ricco</LogoText>
+          </LogoWrapp>
         </TitleWrapp>
       </LogoSection>
 
