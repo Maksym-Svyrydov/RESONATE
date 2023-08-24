@@ -9,7 +9,9 @@ import {
   TextTitle,
   TextAccent,
   LogoWrapp,
+  Logo,
   ArrowWrapper,
+  ArrowImg,
   InfoLayout,
   TextWrapper,
   DecriptionSection,
@@ -49,30 +51,14 @@ const CashYou = () => {
             <TextAccent>CashYou</TextAccent>
           </TextTitle>
           <LogoWrapp>
-            <img
-              src={logo}
-              alt="Logo Intericco"
-              style={{
-                width: '226px',
-                height: '178px',
-                marginLeft: '0px',
-                marginRight: 'auto',
-              }}
-            />
+            <Logo src={logo} alt="Logo Intericco" />
           </LogoWrapp>
         </TitleWrapp>
       </LogoSection>
 
       <InfoLayout>
         <ArrowWrapper>
-          <img
-            src={arrow}
-            alt="Arrow"
-            style={{
-              width: ' 114.315px',
-              height: '128px',
-            }}
-          />
+          <ArrowImg src={arrow} alt="Arrow" />
         </ArrowWrapper>
 
         <DecriptionSection>

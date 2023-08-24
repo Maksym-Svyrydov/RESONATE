@@ -9,8 +9,10 @@ import {
   TextTitle,
   TextAccent,
   LogoWrapp,
+  Logo,
   LogoText,
   ArrowWrapper,
+  ArrowImg,
   InfoLayout,
   TextWrapper,
   DecriptionSection,
@@ -52,16 +54,7 @@ const Intericco = () => {
           </TextTitle>
           <LogoWrapp>
             <LogoText>int</LogoText>
-            <img
-              src={logo}
-              alt="Logo Intericco"
-              style={{
-                width: ' 92px',
-                height: '90px',
-                marginLeft: '10px',
-                marginRight: '10px',
-              }}
-            />
+            <Logo src={logo} alt="Logo Intericco" style={{}} />
             <LogoText>ricco</LogoText>
           </LogoWrapp>
         </TitleWrapp>
@@ -69,14 +62,7 @@ const Intericco = () => {
 
       <InfoLayout>
         <ArrowWrapper>
-          <img
-            src={arrow}
-            alt="Arrow"
-            style={{
-              width: ' 114.315px',
-              height: '128px',
-            }}
-          />
+          <ArrowImg src={arrow} alt="Arrow" />
         </ArrowWrapper>
 
         <DecriptionSection>
