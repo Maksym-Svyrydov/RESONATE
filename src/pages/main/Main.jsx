@@ -13,11 +13,17 @@ import Articles from '../../components/MainComponents/7-Articles/Articles';
 import Footer from '../../components/MainComponents/8-Footer/Footer';
 import Carousel from '../../components/MainComponents/Carousel/Carousel';
 import { SliderCases } from '../../components/MainComponents/DesktopComponents/3-Cases/SliderCases';
+import Customers from '../../components/MainComponents/DesktopComponents/4-Customers/Customers';
 
 const Main = () => {
   const [screen, setScreen] = useState(() => window.innerWidth);
   useState(() => setScreen(window.innerWidth));
   console.log(screen);
+  console.log(window.innerHeight);
+  const screenWidth = window.screen.width;
+  const screenHeight = window.screen.height;
+  console.log('screenWidth:', screenWidth);
+  console.log('screenHeight:', screenHeight);
   if (screen < 1366) {
     return (
       <>
@@ -42,6 +48,7 @@ const Main = () => {
       <Hero />
       <Carousel />
       <SliderCases />
+      <Customers />
     </>
   );
 };

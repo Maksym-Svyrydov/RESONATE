@@ -11,7 +11,6 @@ export const Section = styled.section`
     width: 100%;
     height: 768px;
   }
-
   @media screen and (min-width: 1919px) {
     width: 100%;
     height: 1080px;
@@ -27,7 +26,6 @@ export const LogoSection = styled.div`
       rgba(0, 0, 0, 1) 100%
     ),
     url(${bgImg}), no-repeat;
-
   background-size: 800px auto;
   background-repeat: no-repeat;
   background-position: top 0px right -52px;
@@ -42,10 +40,6 @@ export const LogoSection = styled.div`
   }
 `;
 export const TitleWrapp = styled.div`
-  ${
-    '' /* width: 521px;
-  height: 335.343px; */
-  }
   margin: auto auto;
 `;
 export const TextTitle = styled.p`
@@ -215,11 +209,12 @@ export const GoalWrapper = styled.div`
   font-weight: 400;
   line-height: normal;
   @media screen and (min-width: 1365px) {
-    width: 305px;
-    height: 262px;
+    width: 500px;
+    height: 332px;
     font-size: 12px;
     padding: 5px 10px;
     margin-bottom: 197px;
+    margin-right: 25px;
   }
   @media screen and (min-width: 1919px) {
     max-width: 565px;

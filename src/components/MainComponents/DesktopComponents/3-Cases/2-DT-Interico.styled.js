@@ -4,8 +4,6 @@ export const Section = styled.section`
   display: flex;
   box-sizing: border-box;
   flex-direction: row;
-  width: 100%;
-  height: 1080px;
   background: rgba(245, 242, 240, 1);
   @media screen and (min-width: 1365px) {
     width: 100%;
@@ -222,11 +220,12 @@ export const GoalWrapper = styled.div`
   font-weight: 400;
   line-height: normal;
   @media screen and (min-width: 1365px) {
-    width: 305px;
-    height: 262px;
+    width: 500px;
+    height: 332px;
     font-size: 12px;
     padding: 5px 10px;
     margin-bottom: 197px;
+    margin-right: 25px;
   }
   @media screen and (min-width: 1919px) {
     max-width: 565px;
