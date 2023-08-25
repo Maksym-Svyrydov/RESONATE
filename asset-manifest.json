@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.7570e052.css",
-    "main.js": "/resonate/static/js/main.5266c4c1.js",
-    "static/css/867.7527d0ab.chunk.css": "/resonate/static/css/867.7527d0ab.chunk.css",
-    "static/js/867.a929f427.chunk.js": "/resonate/static/js/867.a929f427.chunk.js",
+    "main.js": "/resonate/static/js/main.c82238f1.js",
+    "static/css/972.395100c9.chunk.css": "/resonate/static/css/972.395100c9.chunk.css",
+    "static/js/972.5cce3d56.chunk.js": "/resonate/static/js/972.5cce3d56.chunk.js",
     "static/js/147.304b3212.chunk.js": "/resonate/static/js/147.304b3212.chunk.js",
     "static/js/964.16e0c9c8.chunk.js": "/resonate/static/js/964.16e0c9c8.chunk.js",
     "static/js/787.097e58ee.chunk.js": "/resonate/static/js/787.097e58ee.chunk.js",
@@ -26,9 +26,13 @@
     "static/media/05.png": "/resonate/static/media/05.70a93e5f97e50a9084fd.png",
     "static/media/03.png": "/resonate/static/media/03.ef998b06965bda51d5df.png",
     "static/media/uuutoo.svg": "/resonate/static/media/uuutoo.ba47d87b1d004685913049796d77036a.svg",
+    "static/media/Dmitry_Karanda.png": "/resonate/static/media/Dmitry_Karanda.d4caa977a44ab9dd968d.png",
     "static/media/02.png": "/resonate/static/media/02.04a349e973050b5ec058.png",
     "static/media/Profit_img.png": "/resonate/static/media/Profit_img.f06d0cfaacc039add068.png",
     "static/media/SPRIBE.svg": "/resonate/static/media/SPRIBE.80ac726351d4e15c246e276b31b61fa5.svg",
+    "static/media/Oleksii_Chepelyk.png": "/resonate/static/media/Oleksii_Chepelyk.06b10e6ee982d0e31f9c.png",
+    "static/media/CEO Cash You.png": "/resonate/static/media/CEO Cash You.fd45096a7c3b8f372931.png",
+    "static/media/Kinan_Antar.png": "/resonate/static/media/Kinan_Antar.3bd351aacac7d103b827.png",
     "static/media/intericco.svg": "/resonate/static/media/intericco.4ad875c6be8f8dc60d00ce1489fec899.svg",
     "static/media/orioncity.svg": "/resonate/static/media/orioncity.9c047b08c9fdff3c2e1098aaecc0fef6.svg",
     "static/media/04.png": "/resonate/static/media/04.1fa0daa973cc94e0c1ce.png",
@@ -72,9 +76,9 @@
     "static/media/quote.svg": "/resonate/static/media/quote.e750365b83ec0ed284a1f10541feca04.svg",
     "static/media/Arrow.svg": "/resonate/static/media/Arrow.6206e93998b01f0c4b05eb3074b0ea7e.svg",
     "main.7570e052.css.map": "/resonate/static/css/main.7570e052.css.map",
-    "main.5266c4c1.js.map": "/resonate/static/js/main.5266c4c1.js.map",
-    "867.7527d0ab.chunk.css.map": "/resonate/static/css/867.7527d0ab.chunk.css.map",
-    "867.a929f427.chunk.js.map": "/resonate/static/js/867.a929f427.chunk.js.map",
+    "main.c82238f1.js.map": "/resonate/static/js/main.c82238f1.js.map",
+    "972.395100c9.chunk.css.map": "/resonate/static/css/972.395100c9.chunk.css.map",
+    "972.5cce3d56.chunk.js.map": "/resonate/static/js/972.5cce3d56.chunk.js.map",
     "147.304b3212.chunk.js.map": "/resonate/static/js/147.304b3212.chunk.js.map",
     "964.16e0c9c8.chunk.js.map": "/resonate/static/js/964.16e0c9c8.chunk.js.map",
     "787.097e58ee.chunk.js.map": "/resonate/static/js/787.097e58ee.chunk.js.map",
@@ -82,6 +86,6 @@
   },
   "entrypoints": [
     "static/css/main.7570e052.css",
-    "static/js/main.5266c4c1.js"
+    "static/js/main.c82238f1.js"
   ]
 }
