@@ -30,6 +30,7 @@ export const LogoSection = styled.div`
   background-size: 800px auto;
   background-repeat: no-repeat;
   background-position: top 0px right -52px;
+
   @media screen and (min-width: 1365px) {
     width: 648px;
     height: 768px;
@@ -220,16 +221,16 @@ export const GoalWrapper = styled.div`
   font-weight: 400;
   line-height: normal;
   @media screen and (min-width: 1365px) {
-    width: 500px;
-    height: 332px;
+    width: 380px;
+    height: 252px;
     font-size: 12px;
     padding: 5px 10px;
     margin-bottom: 197px;
     margin-right: 25px;
   }
   @media screen and (min-width: 1919px) {
-    max-width: 565px;
-    max-height: 362px;
+    width: 565px;
+    height: 332px;
     font-size: 18px;
     padding: 38px 27px;
     margin-bottom: 197px;

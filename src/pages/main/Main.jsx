@@ -14,6 +14,8 @@ import Footer from '../../components/MainComponents/8-Footer/Footer';
 import Carousel from '../../components/MainComponents/Carousel/Carousel';
 import { SliderCases } from '../../components/MainComponents/DesktopComponents/3-Cases/SliderCases';
 import Customers from '../../components/MainComponents/DesktopComponents/4-Customers/Customers';
+import ProfitFormula from '../../components/MainComponents/DesktopComponents/5-Profit/Profit';
+import ReviewsCustomers from '../../components/MainComponents/DesktopComponents/6-Reviews/Reviews';
 
 const Main = () => {
   const [screen, setScreen] = useState(() => window.innerWidth);
@@ -49,6 +51,8 @@ const Main = () => {
       <Carousel />
       <SliderCases />
       <Customers />
+      <ProfitFormula />
+      <ReviewsCustomers />
     </>
   );
 };
