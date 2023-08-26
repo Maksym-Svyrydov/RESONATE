@@ -11,7 +11,6 @@ export const Section = styled.div`
   font-style: normal;
   line-height: normal;
   background-color: #283340;
-  outline: 1px solid tomato;
   padding: 139px 0px;
 `;
 export const Title = styled.p`

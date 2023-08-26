@@ -11,7 +11,6 @@ export const Section = styled.div`
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   line-height: normal;
-  outline: 1px solid tomato;
   @media screen and (max-width: 1364px) {
     width: 100%;
   }

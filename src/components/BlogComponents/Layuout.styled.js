@@ -16,8 +16,8 @@ export const Wrapper = styled.div`
   flex-direction: column;
   jusify-content: center;
   width: 0;
-  height: 0;
-  outline: 1px solid blue;
+  height: 10000px;
+
   @media screen and (max-width: 1364px) {
     visibility: hidden;
   }
@@ -46,14 +46,4 @@ export const WrapperContent = styled.div`
   @media screen and (min-width: 1919px) {
     margin-left: 84px;
   }
-`;
-
-export const Elem1 = styled.div`
-  margin-top: 300px;
-  outline: 1px solid green;
-  height: 10000px;
-`;
-export const Elem2 = styled.div`
-  outline: 1px solid yellow;
-  height: 10000px;
 `;

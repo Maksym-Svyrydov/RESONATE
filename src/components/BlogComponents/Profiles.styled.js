@@ -9,7 +9,6 @@ export const Section = styled.div`
   font-style: normal;
   line-height: normal;
   ${'' /* background-color: rgba(203, 190, 156, 0.15); */}
-  outline: 1px solid tomato;
   @media screen and (max-width: 1364px) {
     width: 100%;
   }

@@ -29,9 +29,9 @@ const Blog = () => {
           <CheckList />
           <Profile />
         </WrapperContent>
+        <Owner />
+        <Footer />
       </Layout>
-      <Owner />
-      <Footer />
     </>
   );
 };

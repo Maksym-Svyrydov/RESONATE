@@ -9,7 +9,9 @@ export const FormContainer = styled.div`
   line-height: normal;
   margin-left: auto;
   margin-right: auto;
-
+  position: sticky;
+  left: 25px;
+  top: 130px;
   @media screen and (max-width: 1364px) {
     visibility: hidden;
   }
@@ -17,8 +19,6 @@ export const FormContainer = styled.div`
     height: 452px;
     width: 260px;
     padding: 7px 4px;
-    position: sticky;
-    top: 130px;
   }
   @media screen and (min-width: 1919px) {
     display: flex;
@@ -33,7 +33,6 @@ export const FormContainer = styled.div`
 `;
 export const Wrapper = styled.div`
   display: flex;
-
   flex-direction: column;
   border: 1px solid rgba(203, 190, 156, 0.5);
   jusify-content: center;
