@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.7570e052.css",
-    "main.js": "/resonate/static/js/main.a5a922a3.js",
+    "main.js": "/resonate/static/js/main.62498073.js",
     "static/css/857.4a4e337f.chunk.css": "/resonate/static/css/857.4a4e337f.chunk.css",
-    "static/js/857.e5b8cfec.chunk.js": "/resonate/static/js/857.e5b8cfec.chunk.js",
-    "static/js/147.a666b3d6.chunk.js": "/resonate/static/js/147.a666b3d6.chunk.js",
-    "static/js/964.001378bc.chunk.js": "/resonate/static/js/964.001378bc.chunk.js",
+    "static/js/857.3114e47d.chunk.js": "/resonate/static/js/857.3114e47d.chunk.js",
+    "static/js/147.1e32c969.chunk.js": "/resonate/static/js/147.1e32c969.chunk.js",
+    "static/js/964.ccff84bc.chunk.js": "/resonate/static/js/964.ccff84bc.chunk.js",
     "static/js/787.097e58ee.chunk.js": "/resonate/static/js/787.097e58ee.chunk.js",
     "static/js/413.ad80452a.chunk.js": "/resonate/static/js/413.ad80452a.chunk.js",
     "static/media/2-ogilvy.png": "/resonate/static/media/2-ogilvy.2d3e7ce8e32bd88046eb.png",
@@ -82,16 +82,16 @@
     "static/media/quote.svg": "/resonate/static/media/quote.e750365b83ec0ed284a1f10541feca04.svg",
     "static/media/Arrow.svg": "/resonate/static/media/Arrow.6206e93998b01f0c4b05eb3074b0ea7e.svg",
     "main.7570e052.css.map": "/resonate/static/css/main.7570e052.css.map",
-    "main.a5a922a3.js.map": "/resonate/static/js/main.a5a922a3.js.map",
+    "main.62498073.js.map": "/resonate/static/js/main.62498073.js.map",
     "857.4a4e337f.chunk.css.map": "/resonate/static/css/857.4a4e337f.chunk.css.map",
-    "857.e5b8cfec.chunk.js.map": "/resonate/static/js/857.e5b8cfec.chunk.js.map",
-    "147.a666b3d6.chunk.js.map": "/resonate/static/js/147.a666b3d6.chunk.js.map",
-    "964.001378bc.chunk.js.map": "/resonate/static/js/964.001378bc.chunk.js.map",
+    "857.3114e47d.chunk.js.map": "/resonate/static/js/857.3114e47d.chunk.js.map",
+    "147.1e32c969.chunk.js.map": "/resonate/static/js/147.1e32c969.chunk.js.map",
+    "964.ccff84bc.chunk.js.map": "/resonate/static/js/964.ccff84bc.chunk.js.map",
     "787.097e58ee.chunk.js.map": "/resonate/static/js/787.097e58ee.chunk.js.map",
     "413.ad80452a.chunk.js.map": "/resonate/static/js/413.ad80452a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7570e052.css",
-    "static/js/main.a5a922a3.js"
+    "static/js/main.62498073.js"
   ]
 }
