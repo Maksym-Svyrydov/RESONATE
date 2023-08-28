@@ -4,10 +4,10 @@ export const Section = styled.div`
   box-sizing: border-box;
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
-
   line-height: normal;
-  @media screen and (max-width: 1364px) {
-    width: 100%;
+  @media screen and (max-width: 767px) {
+    width: 375px;
+    padding: 0px;
   }
   @media screen and (min-width: 1365px) {
     width: 768px;
@@ -24,6 +24,9 @@ export const Wrapper = styled.div`
   padding: 21px 0px 0px 47px;
   margin-right: auto;
   background-color: rgba(203, 190, 156, 0.15);
+  @media screen and (max-width: 767px) {
+    padding: 5px 10px;
+  }
 `;
 export const Title = styled.h3`
   color: #000;
@@ -33,11 +36,17 @@ export const Title = styled.h3`
   font-weight: 700;
   line-height: normal;
   margin: 0px 0px 13px 0px;
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
 `;
 export const TitleAccent = styled.span`
   color: rgba(0, 0, 0, 0.8);
   font-size: 20px;
   font-weight: 400;
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+  }
 `;
 export const ListTitle = styled.p`
   color: rgba(40, 51, 64, 0.8);
@@ -48,6 +57,10 @@ export const ListTitle = styled.p`
   line-height: 150%; /* 30px */
   text-decoration-line: underline;
   margin: 0;
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    line-height: 100%;
+  }
 `;
 export const List = styled.ul`
   color: rgba(40, 51, 64, 0.8);
@@ -62,6 +75,10 @@ export const List = styled.ul`
   flex-direction: column;
   margin: 0px 0px 24px 0px;
   padding: 0;
+  @media screen and (max-width: 767px) {
+    font-size: 14px;
+    line-height: 100%;
+  }
 `;
 
 export const Item = styled.li`

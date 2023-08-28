@@ -10,7 +10,7 @@ import styled from 'styled-components';
 //   padding-top: 100px;
 //   background-color: #283340;
 // `;
-export const Section = styled.section`
+export const Section = styled.div`
   display: flex;
   box-sizing: border-box;
   flex-direction: row;

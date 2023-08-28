@@ -1,11 +1,15 @@
+import { useState } from 'react';
 import { ContactForm } from '../ContactForm/ContactForm';
 import { Section, Wrapper, Title, SubTitile, Text } from './Privacy.styled';
 
 export const PrivacyArt = () => {
+  const [screen, setScreen] = useState(() => window.innerWidth);
+  useState(() => setScreen(window.innerWidth));
+
   return (
     <>
       <Section>
-        <ContactForm />
+        {screen > 1365 && <ContactForm />}
         <Wrapper>
           <Title>Who we are</Title>
           <Text>

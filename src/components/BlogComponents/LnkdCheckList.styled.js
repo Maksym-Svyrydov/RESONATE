@@ -9,8 +9,9 @@ export const Section = styled.div`
   font-style: normal;
   line-height: normal;
   ${'' /* background-color: rgba(203, 190, 156, 0.15); */}
-  @media screen and (max-width: 1364px) {
-    width: 100%;
+  @media screen and (max-width: 767px) {
+    width: 375px;
+    padding: 0px 10px 0px 0px;
   }
   @media screen and (min-width: 1365px) {
     width: 768px;
@@ -26,6 +27,10 @@ export const Title = styled.h2`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  @media screen and (max-width: 767px) {
+    font-size: 24px;
+    margin: 20px 0px 10px 0px;
+  }
 `;
 export const Text = styled.p`
   color: rgba(40, 51, 64, 0.8);
@@ -34,6 +39,11 @@ export const Text = styled.p`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+  }
 `;
 export const SubTitle = styled.h3`
   color: rgba(40, 51, 64, 0.8);
@@ -42,6 +52,11 @@ export const SubTitle = styled.h3`
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+    padding: 0;
+  }
 `;
 export const TxtAccent = styled.span`
   color: #283340;
@@ -50,6 +65,9 @@ export const TxtAccent = styled.span`
   font-weight: 700;
   line-height: normal;
   text-decoration-line: underline;
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
 `;
 export const TextList = styled.li`
   color: rgba(40, 51, 64, 0.8);
@@ -58,9 +76,12 @@ export const TextList = styled.li`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
 `;
 export const Img = styled.img`
-  @media screen and (max-width: 1364px) {
+  @media screen and (max-width: 767px) {
     width: 100%;
   }
   @media screen and (min-width: 1365px) {

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-export const Section = styled.section`
+export const Section = styled.div`
   display: flex;
   box-sizing: border-box;
   position: relative;

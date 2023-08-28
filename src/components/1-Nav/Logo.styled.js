@@ -3,7 +3,7 @@ export const LogoWrapper = styled.div`
   display: flex;
   box-sizing: border-box;
   flex-direction: column;
-  padding-left: 20px;
+  padding-left: 50px;
   margin: 0px;
 `;
 export const LogoName = styled.p`

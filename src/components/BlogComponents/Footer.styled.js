@@ -12,6 +12,10 @@ export const Section = styled.div`
   line-height: normal;
   background-color: #283340;
   padding: 139px 0px;
+  @media screen and (max-width: 767px) {
+    height: 100%;
+    padding: 40px 10px;
+  }
 `;
 export const Title = styled.p`
   color: #f5f2f0;
@@ -21,8 +25,8 @@ export const Title = styled.p`
   line-height: 120%; /* 86.4px */
   text-transform: uppercase;
   margin: auto;
-  @media screen and (max-width: 1364px) {
-    font-size: 55px;
+  @media screen and (max-width: 767px) {
+    font-size: 46px;
   }
   @media screen and (min-width: 1365px) {
     font-size: 55px;
@@ -41,6 +45,13 @@ export const List = styled.ul`
   gap: 65px;
   align-items: center;
   justify-content: center;
+  @media screen and (max-width: 767px) {
+    gap: 35px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
 `;
 
 export const Item = styled.li`

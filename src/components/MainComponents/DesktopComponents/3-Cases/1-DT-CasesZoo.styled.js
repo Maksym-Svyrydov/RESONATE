@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import bgImg from '../../../../img/Cases/Zoo-Bg-Img.png';
-export const Section = styled.section`
+export const Section = styled.div`
   display: flex;
   box-sizing: border-box;
   flex-direction: row;

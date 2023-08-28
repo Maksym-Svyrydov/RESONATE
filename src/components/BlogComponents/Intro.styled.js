@@ -5,14 +5,15 @@ export const Section = styled.div`
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
-
   height: 100%;
   ${'' /* background: #f5f2f0; */}
   font-family: 'DM Sans', sans-serif;
   font-style: normal;
   line-height: normal;
-  @media screen and (max-width: 1364px) {
-    width: 100%;
+  @media screen and (max-width: 767px) {
+    padding: 0px 10px 0px 10px;
+    flex-wrap: wrap;
+    width: 375px;
   }
   @media screen and (min-width: 1365px) {
     width: 768px;
@@ -24,6 +25,11 @@ export const Section = styled.div`
 export const AuthorWrap = styled.div`
   display: flex;
   margin-bottom: 51px;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    padding-top: 12px;
+    margin-bottom: 22px;
+  }
 `;
 export const AvatarWrapp = styled.div`
   display: flex;
@@ -35,16 +41,26 @@ export const AvatarWrapp = styled.div`
   background: #cbbe9c;
   padding: 2px;
   overflow: hidden;
+  @media screen and (max-width: 768px) {
+    width: 80px;
+    height: 80px;
+  }
 `;
 export const Avatar = styled.img`
   width: 110px;
   border-radius: 50%;
+  @media screen and (max-width: 768px) {
+    width: 70px;
+  }
 `;
 export const Author = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 23px;
+  @media screen and (max-width: 768px) {
+    padding-left: 0px;
+  }
 `;
 export const Name = styled.p`
   padding: 0;
@@ -75,6 +91,11 @@ export const List = styled.ul`
   line-height: normal;
   margin: 0px 0px 60px 0px;
   padding: 0;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    flex-wrap: wrap;
+    width: 100%;
+  }
 `;
 export const Item = styled.li`
   color: #283340;
@@ -83,4 +104,8 @@ export const Item = styled.li`
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    padding: 0;
+  }
 `;

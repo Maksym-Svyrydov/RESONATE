@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { ContactForm } from '../../components/ContactForm/ContactForm';
 import { Contenst } from '../../components/BlogComponents/Contents';
 import { Footer } from '../../components/BlogComponents/Footer';
@@ -15,13 +16,18 @@ import {
 } from '../../components/BlogComponents/Layuout.styled';
 
 const Blog = () => {
+  const [screen, setScreen] = useState(() => window.innerWidth);
+  useState(() => setScreen(window.innerWidth));
   return (
     <>
       <Hero />
       <Layout>
-        <Wrapper>
-          <ContactForm />
-        </Wrapper>
+        {screen > 1365 && (
+          <Wrapper>
+            <ContactForm />
+          </Wrapper>
+        )}
+
         <WrapperContent>
           <Intro />
           <Contenst />
