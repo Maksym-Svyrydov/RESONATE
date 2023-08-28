@@ -1,18 +1,18 @@
-import { nanoid } from 'nanoid';
+// import { nanoid } from 'nanoid';
 import {
   Section,
   Title,
   TitleTxtAccent,
-  TitleServices,
-  ServicesList,
-  QuestionTxt,
-  QuestionList,
-  QuestionItem,
-  ContactTitle,
-  Form,
-  FormInput,
-  Textarea,
-  ButtonSubmit,
+  // TitleServices,
+  // ServicesList,
+  // QuestionTxt,
+  // QuestionList,
+  // QuestionItem,
+  // ContactTitle,
+  // Form,
+  // FormInput,
+  // Textarea,
+  // ButtonSubmit,
   LinksTitle,
   LinkList,
   Contacts,
@@ -23,10 +23,10 @@ import {
   Icon,
   Rsnt,
   LinksWrapper,
-  CheckboxContainer,
-  Checkbox,
-  Label,
-} from './DT-Footer.styled';
+  // CheckboxContainer,
+  // Checkbox,
+  // Label,
+} from './DT-Footer.styled copy';
 import insta from '../../../../img/icons/footer-icons/instagaram.svg';
 import facebook from '../../../../img/icons/footer-icons/facebook.svg';
 import be from '../../../../img/icons/footer-icons/Be.svg';
@@ -35,27 +35,9 @@ import lnkdin from '../../../../img/icons/footer-icons/linkiedIn.svg';
 import twitter from '../../../../img/icons/footer-icons/twitter.svg';
 import mailIco from '../../../../img/icons/footer-icons/mail.svg';
 import youtube from '../../../../img/icons/footer-icons/youtube.svg';
+import FormFeedback from './Form';
 
 const FooterDesktop = () => {
-  const handleSubmitForm = (e) => {
-    const form = e.target;
-    e.preventDefault();
-    const name = form.elements.name.value;
-    const phone = form.elements.phone.value;
-    const email = form.elements.email.value;
-    const details = form.elements.details.value;
-    const newRequest = {
-      id: nanoid(),
-      name: name,
-      phone: phone,
-      email: email,
-      details: details,
-      services: [],
-    };
-    form.reset();
-    console.log(newRequest.services);
-  };
-  const handleChange = (e) => {};
   return (
     <Section>
       <LinksWrapper>
@@ -113,7 +95,8 @@ const FooterDesktop = () => {
         <Title>
           let’s <TitleTxtAccent>resonate</TitleTxtAccent> your project.
         </Title>
-        <Form onSubmit={handleSubmitForm}>
+        <FormFeedback />
+        {/* <Form onSubmit={handleSubmitForm}>
           <TitleServices>SERVICES</TitleServices>
           <ServicesList>
             <CheckboxContainer>
@@ -201,7 +184,7 @@ const FooterDesktop = () => {
             placeholder="Project details"
           />
           <ButtonSubmit type="submit">SEND</ButtonSubmit>
-        </Form>
+        </Form> */}
       </div>
     </Section>
   );
