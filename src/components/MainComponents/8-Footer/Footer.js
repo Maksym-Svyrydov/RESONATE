@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid';
 import {
   Section,
   Title,
@@ -32,6 +33,23 @@ import twitter from '../../../img/icons/footer-icons/twitter.svg';
 import mailIco from '../../../img/icons/footer-icons/mail.svg';
 import youtube from '../../../img/icons/footer-icons/youtube.svg';
 const Footer = () => {
+  const handleSubmitForm = (e) => {
+    const form = e.target;
+    e.preventDefault();
+    const name = form.elements.name.value;
+    const phone = form.elements.phone.value;
+    const email = form.elements.email.value;
+    const details = form.elements.details.value;
+    const newRequest = {
+      id: nanoid(),
+      name: name,
+      phone: phone,
+      email: email,
+      details: details,
+    };
+    form.reset();
+    console.log(newRequest);
+  };
   return (
     <Section>
       <Title>
@@ -52,13 +70,20 @@ const Footer = () => {
         <QuestionItem>Download</QuestionItem>
       </QuestionList>
       <ContactTitle>Contact info</ContactTitle>
-      <Form>
-        <FormInput type="text" name="Name" placeholder="Name*" />
-        <FormInput type="tel" name="phone" placeholder="Phone*" />
+      <Form onSubmit={handleSubmitForm}>
+        <FormInput
+          id="name"
+          type="text"
+          name="name"
+          required
+          placeholder="Name*"
+        />
+        <FormInput id="phone" type="tel" name="phone" placeholder="Phone*" />
         <FormInput type="email" name="email" placeholder="Email" />
         <Textarea
+          id="details"
           type="text"
-          name="Project details"
+          name="details"
           placeholder="Project details"
         />
         <ButtonSubmit type="submit">SEND</ButtonSubmit>

@@ -219,3 +219,4 @@ export const Rsnt = styled.p`
   padding: 0px;
   margin: 0px 0px 32px 0px;
 `;
+

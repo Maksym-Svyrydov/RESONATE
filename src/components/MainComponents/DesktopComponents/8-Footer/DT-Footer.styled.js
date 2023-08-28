@@ -359,3 +359,65 @@ export const Rsnt = styled.p`
   padding: 0px;
   margin: 0px 0px 32px 0px;
 `;
+export const Label = styled.label`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: 1px solid #283340;
+  color: #283340;
+  ${'' /* margin: 0px 57px 43px 0px; */}
+  @media screen and (min-width: 1365px) {
+    width: 140px;
+    height: 32px;
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 1919px) {
+    width: 212px;
+    height: 49px;
+    font-size: 18px;
+  }
+`;
+export const Checkbox = styled.input`
+  ${'' /* display: none; */}
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  appearance: none;
+`;
+export const CheckboxContainer = styled.ul`
+  label {
+    cursor: pointer;
+  }
+  input:checked {
+    & + label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Poppins', sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      border: 1px solid #283340;
+      color: #cbbe9c;
+      background-color: #283340;
+
+      @media screen and (min-width: 1365px) {
+        width: 140px;
+        height: 32px;
+        font-size: 14px;
+      }
+
+      @media screen and (min-width: 1919px) {
+        width: 212px;
+        height: 49px;
+        font-size: 18px;
+      }
+    }
+  }
+`;

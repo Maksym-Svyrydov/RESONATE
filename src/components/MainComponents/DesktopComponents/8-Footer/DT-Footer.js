@@ -1,3 +1,4 @@
+import { nanoid } from 'nanoid';
 import {
   Section,
   Title,
@@ -23,6 +24,9 @@ import {
   Icon,
   Rsnt,
   LinksWrapper,
+  CheckboxContainer,
+  Checkbox,
+  Label,
 } from './DT-Footer.styled';
 import insta from '../../../../img/icons/footer-icons/instagaram.svg';
 import facebook from '../../../../img/icons/footer-icons/facebook.svg';
@@ -32,7 +36,35 @@ import lnkdin from '../../../../img/icons/footer-icons/linkiedIn.svg';
 import twitter from '../../../../img/icons/footer-icons/twitter.svg';
 import mailIco from '../../../../img/icons/footer-icons/mail.svg';
 import youtube from '../../../../img/icons/footer-icons/youtube.svg';
+
 const FooterDesktop = () => {
+  const handleSubmitForm = (e) => {
+    const form = e.target;
+    e.preventDefault();
+    const name = form.elements.name.value;
+    const phone = form.elements.phone.value;
+    const email = form.elements.email.value;
+    const details = form.elements.details.value;
+    const newRequest = {
+      id: nanoid(),
+      name: name,
+      phone: phone,
+      email: email,
+      details: details,
+      services: {
+        marketing: form.elements.marketing.value,
+        promotion: form.elements.promotion.value,
+        social: form.elements.social.value,
+        development: form.elements.development.value,
+        branding: form.elements.branding.value,
+        other: form.elements.other.value,
+      },
+    };
+    form.reset();
+    console.log(newRequest);
+    console.log(form);
+  };
+
   return (
     <Section>
       <LinksWrapper>
@@ -90,28 +122,90 @@ const FooterDesktop = () => {
         <Title>
           let’s <TitleTxtAccent>resonate</TitleTxtAccent> your project.
         </Title>
-        <TitleServices>SERVICES</TitleServices>
-        <ServicesList>
-          <ServicesItem>Marketing</ServicesItem>
-          <ServicesItem>Promotion</ServicesItem>
-          <ServicesItem>Social media</ServicesItem>
-          <ServicesItem>Development</ServicesItem>
-          <ServicesItem>Branding</ServicesItem>
-          <ServicesItem>Other</ServicesItem>
-        </ServicesList>
-        <QuestionTxt>Have you filled out our brief yet?</QuestionTxt>
-        <QuestionList>
-          <QuestionItem>Yes I did</QuestionItem>
-          <QuestionItem>Download</QuestionItem>
-        </QuestionList>
-        <ContactTitle>Contact info</ContactTitle>
-        <Form>
-          <FormInput type="text" name="Name" placeholder="Name*" />
-          <FormInput type="tel" name="phone" placeholder="Phone*" />
-          <FormInput type="email" name="email" placeholder="Email" />
-          <Textarea
+        <Form onSubmit={handleSubmitForm}>
+          <TitleServices>SERVICES</TitleServices>
+          <ServicesList>
+            <CheckboxContainer>
+              <Checkbox
+                name="marketing"
+                type={'checkbox'}
+                id="Marketing"
+                value={true}
+              />
+              <Label htmlFor={'Marketing'}>Marketing</Label>
+            </CheckboxContainer>
+            <CheckboxContainer>
+              <Checkbox
+                name="promotion"
+                type={'checkbox'}
+                id="Promotion"
+                value={true}
+              />
+              <Label htmlFor={'Promotion'}>Promotion</Label>
+            </CheckboxContainer>
+            <CheckboxContainer>
+              <Checkbox
+                name="social"
+                type={'checkbox'}
+                id="Social media"
+                value={true}
+              />
+              <Label htmlFor={'Social media'}>Social media</Label>
+            </CheckboxContainer>
+            <CheckboxContainer>
+              <Checkbox
+                name="development"
+                type={'checkbox'}
+                id="Development"
+                value={true}
+              />
+              <Label htmlFor={'Development'}>Development</Label>
+            </CheckboxContainer>
+            <CheckboxContainer>
+              <Checkbox
+                name="branding"
+                type={'checkbox'}
+                id="Branding"
+                value={true}
+              />
+              <Label htmlFor={'Branding'}>Branding</Label>
+            </CheckboxContainer>
+            <CheckboxContainer>
+              <Checkbox
+                name="other"
+                type={'checkbox'}
+                id="Other"
+                value={true}
+              />
+              <Label htmlFor={'Other'}>Other</Label>
+            </CheckboxContainer>
+          </ServicesList>
+          <QuestionTxt>Have you filled out our brief yet?</QuestionTxt>
+          <QuestionList>
+            <QuestionItem>Yes I did</QuestionItem>
+            <QuestionItem>Download</QuestionItem>
+          </QuestionList>
+          <ContactTitle>Contact info</ContactTitle>
+
+          <FormInput
+            id="name"
             type="text"
-            name="Project details"
+            name="name"
+            required
+            placeholder="Name*"
+          />
+          <FormInput id="phone" type="tel" name="phone" placeholder="Phone*" />
+          <FormInput
+            id="email"
+            type="email"
+            name="email"
+            required
+            placeholder="Email"
+          />
+          <Textarea
+            id="details"
+            type="text"
+            name="details"
             placeholder="Project details"
           />
           <ButtonSubmit type="submit">SEND</ButtonSubmit>

@@ -22,12 +22,13 @@ import FooterDesktop from '../../components/MainComponents/DesktopComponents/8-F
 const Main = () => {
   const [screen, setScreen] = useState(() => window.innerWidth);
   useState(() => setScreen(window.innerWidth));
-  console.log(screen);
-  console.log(window.innerHeight);
-  const screenWidth = window.screen.width;
-  const screenHeight = window.screen.height;
-  console.log('screenWidth:', screenWidth);
-  console.log('screenHeight:', screenHeight);
+  // console.log(screen);
+  // console.log(window.innerHeight);
+  // const screenWidth = window.screen.width;
+  // const screenHeight = window.screen.height;
+  // console.log('screenWidth:', screenWidth);
+  // console.log('screenHeight:', screenHeight);
+
   if (screen < 1366) {
     return (
       <>
