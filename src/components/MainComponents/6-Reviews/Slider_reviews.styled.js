@@ -8,17 +8,17 @@ export const ReviewsCustomers = styled(Slider)`
   margin-right: auto;
   margin-bottom: 50px;
   width: 100%;
-
   @media (min-width: 768px) {
     width: 580px;
   }
-
   @media screen and (min-width: 1280px) {
     width: 1183px;
   }
 `;
-export const WrapperReview = styled.ul`
-  width: 200px;
+export const WrapperReview = styled.div`
+  display: flex;
+  width: 100%;
+  height: 284px;
   list-style: none;
   margin-bottom: 50px;
   padding: 0;
@@ -28,15 +28,18 @@ export const WrapperReview = styled.ul`
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  justify-content: space-between;
+  flex-direction: column;
 `;
 
-export const ReviewTextItem = styled.li`
+export const ReviewTextItem = styled.div`
   margin-bottom: 34px;
 `;
-export const CustomerWrapper = styled.li`
+export const CustomerWrapper = styled.div`
   display: flex;
   flex-direction: row;
   margin-left: 14px;
+  margin-top: auto;
 `;
 export const CustomerAvatar = styled.img`
   border-radius: 41px;

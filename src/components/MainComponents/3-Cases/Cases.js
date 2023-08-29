@@ -5,36 +5,26 @@ import {
   Section,
   Title,
   List,
+  ItemZoo,
+  ItemInterico,
+  ItemCashYou,
   TextWrapper,
   Text,
   Customer,
   TextLink,
   LinkWrapper,
-  Link,
+  LinkRef,
   Icon,
 } from './Cases.styled';
-import myImage from '../../../img/bg-zoo.png';
-import styled from 'styled-components';
 
-const Item = styled.li`
-  padding-left: 30px;
-  padding-top: 18px;
-  background-repeat: no-repeat;
-  background-color: linear-gradient(
-    180deg,
-    rgba(0, 0, 0, 0.2) 0%,
-    rgba(0, 0, 0, 0) 54.17%
-  );
-  border: 1px solid #cbbe9c;
-  background-image: url(${myImage});
-  background-size: cover;
-`;
+import { Outlet } from 'react-router';
+
 const Cases = () => {
   return (
     <Section>
       <Title>CASE STUDIES</Title>
       <List>
-        <Item>
+        <ItemZoo>
           <TextWrapper>
             <Text>Branding &</Text>
             <br />
@@ -46,99 +36,59 @@ const Cases = () => {
           </TextWrapper>
           <LinkWrapper>
             <TextLink>Show more</TextLink>
-            <Link href="/">
+            <LinkRef to="/Zoo">
               {/* <BsArrowRight /> */}
               <Icon viewBox="0 0 88 32">
                 <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
                 <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
               </Icon>
-            </Link>
+            </LinkRef>
           </LinkWrapper>
-        </Item>
-        <Item>
+        </ItemZoo>
+        <ItemInterico>
           <TextWrapper>
             <Text>Branding &</Text>
             <br />
             <Text>
               Website development <br />
+              Outsourced marketing department
+              <br />
+              <Text>with </Text>
             </Text>
-            <Text>with </Text>
-            <Customer>KHARKIV ZOO</Customer>
+            <Customer>intericco</Customer>
           </TextWrapper>
           <LinkWrapper>
             <TextLink>Show more</TextLink>
-            <Link href="/">
+            <LinkRef to="/intericco">
               {/* <BsArrowRight /> */}
               <Icon viewBox="0 0 88 32">
                 <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
                 <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
               </Icon>
-            </Link>
+            </LinkRef>
           </LinkWrapper>
-        </Item>
-        <Item>
+          <Outlet />
+        </ItemInterico>
+        <ItemCashYou>
           <TextWrapper>
-            <Text>Branding &</Text>
+            <Text>Outsourced marketing department</Text>
             <br />
-            <Text>
-              Website development <br />
-            </Text>
+            <Text></Text>
             <Text>with </Text>
-            <Customer>KHARKIV ZOO</Customer>
+            <Customer>CashYou</Customer>
           </TextWrapper>
           <LinkWrapper>
             <TextLink>Show more</TextLink>
-            <Link href="/">
+            <LinkRef to="/cashyou">
               {/* <BsArrowRight /> */}
               <Icon viewBox="0 0 88 32">
                 <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
                 <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
               </Icon>
-            </Link>
+            </LinkRef>
           </LinkWrapper>
-        </Item>
-        <Item>
-          <TextWrapper>
-            <Text>Branding &</Text>
-            <br />
-            <Text>
-              Website development <br />
-            </Text>
-            <Text>with </Text>
-            <Customer>KHARKIV ZOO</Customer>
-          </TextWrapper>
-          <LinkWrapper>
-            <TextLink>Show more</TextLink>
-            <Link href="/">
-              {/* <BsArrowRight /> */}
-              <Icon viewBox="0 0 88 32">
-                <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
-                <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
-              </Icon>
-            </Link>
-          </LinkWrapper>
-        </Item>
-        <Item>
-          <TextWrapper>
-            <Text>Branding &</Text>
-            <br />
-            <Text>
-              Website development <br />
-            </Text>
-            <Text>with </Text>
-            <Customer>KHARKIV ZOO</Customer>
-          </TextWrapper>
-          <LinkWrapper>
-            <TextLink>Show more</TextLink>
-            <Link href="/">
-              {/* <BsArrowRight /> */}
-              <Icon viewBox="0 0 88 32">
-                <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
-                <path d="M86.747 17.414c0.781-0.781 0.781-2.047 0-2.828l-12.728-12.728c-0.781-0.781-2.047-0.781-2.829 0s-0.781 2.047 0 2.828l11.314 11.314-11.314 11.314c-0.781 0.781-0.781 2.047 0 2.829s2.047 0.781 2.829 0l12.728-12.728zM0 18h85.333v-4h-85.333v4z"></path>
-              </Icon>
-            </Link>
-          </LinkWrapper>
-        </Item>
+          <Outlet />
+        </ItemCashYou>
       </List>
     </Section>
   );

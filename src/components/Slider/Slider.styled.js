@@ -13,12 +13,12 @@ export const LogoImg = styled.img`
 export const LogoCustomers = styled(Slider)`
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
+  width: 100%;
   height: 85px;
   margin-bottom: 50px;
 
   @media (min-width: 768px) {
-    width: 580px;
+    width: 100%;
   }
 
   @media screen and (min-width: 1280px) {

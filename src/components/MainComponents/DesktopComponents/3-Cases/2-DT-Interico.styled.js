@@ -17,7 +17,6 @@ export const Section = styled.div`
 `;
 export const LogoSection = styled.div`
   display: flex;
-
   flex-direction: row;
   background: linear-gradient(
       90deg,

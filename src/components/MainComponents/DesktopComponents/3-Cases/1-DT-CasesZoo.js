@@ -1,7 +1,10 @@
 import React from 'react';
-
+import { useState, useRef } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import arrow from '../../../../img/Cases/Arrow.svg';
 import logoZoo from '../../../../img/Cases/zoo.svg';
+import logoZooMod from '../../../../img/Customers/kharkivzoo_white.svg';
+import arrowBack from '../../../../img/Cases/Arrow_back.svg';
 import {
   Section,
   LogoSection,
@@ -39,30 +42,70 @@ import {
 
 // import bgImg from '../../../../img/Cases/Zoo-Bg-Img.png';
 const Zoo = () => {
+  const [screen, setScreen] = useState(() => window.innerWidth);
+  useState(() => setScreen(window.innerWidth));
+  const location = useLocation();
+  const backLinkHref = useRef(location.state?.from ?? '/');
   return (
     <Section>
       <LogoSection>
-        <TitleWrapp>
-          <TextTitle>Branding &</TextTitle>
-          <TextTitle>Website development</TextTitle>
-          <TextTitle>
-            with
-            <TextAccent>KHARKIV ZOO</TextAccent>
-          </TextTitle>
-          <LogoWrapp>
-            <div>
-              <Logo src={logoZoo} alt="Logo Zoo" />
-            </div>
-            <div>
-              <LogoText>KHARKIV</LogoText>
-              <LogoText>ZOO</LogoText>
-            </div>
-          </LogoWrapp>
+        {screen > 1365 ? (
+          <TitleWrapp>
+            <TextTitle>Branding &</TextTitle>
+            <TextTitle>Website development</TextTitle>
+            <TextTitle>
+              with
+              <TextAccent>KHARKIV ZOO</TextAccent>
+            </TextTitle>
+            <LogoWrapp>
+              <div>
+                <Logo src={logoZoo} alt="Logo Zoo" />
+              </div>
+              <div>
+                <LogoText>KHARKIV</LogoText>
+                <LogoText>ZOO</LogoText>
+              </div>
+            </LogoWrapp>
 
-          <div>
-            <div>{/* <img src={bgImg} alt="Mankey in Zoo" /> */}</div>
-          </div>
-        </TitleWrapp>
+            <div>
+              <div>{/* <img src={bgImg} alt="Mankey in Zoo" /> */}</div>
+            </div>
+          </TitleWrapp>
+        ) : (
+          <TitleWrapp>
+            <Logo src={logoZooMod} alt="Logo Zoo" />
+            <div>
+              <TextTitle>Branding &</TextTitle>
+              <TextTitle>Website development</TextTitle>
+              <TextTitle>
+                with
+                <TextAccent>KHARKIV ZOO</TextAccent>
+              </TextTitle>
+              <div>
+                <Link
+                  style={{
+                    textDecoration: 'none',
+                    display: 'flex',
+                    position: 'relative',
+                    padding: '6px',
+                    fontSize: '16px',
+                    color: '#F5F2F0',
+                    fontWeight: '600',
+                    fontFamily: 'Poppins',
+                    gap: '35px',
+                    justifyContent: 'flex-end',
+                    marginBottom: '15px',
+                    marginTop: '25px',
+                  }}
+                  to={backLinkHref.current}
+                >
+                  <span>Show less</span>
+                  <img src={arrowBack} alt="Arrow back" />
+                </Link>
+              </div>
+            </div>
+          </TitleWrapp>
+        )}
       </LogoSection>
 
       <InfoLayout>
@@ -82,22 +125,6 @@ const Zoo = () => {
               <CaseItem>1 UI/UX desigher</CaseItem>
               <CaseItem>1 Business analist</CaseItem>
             </CaseList>
-            <GoalWrapper>
-              <GoalTitle>Our goal</GoalTitle>
-              <p>
-                It was necessary to develop a new brand style for the zoo, which
-                would be associated with the city of Kharkiv. Create a
-                multifunctional website for zoo visitors, employees and
-                partners.
-              </p>
-              <p>
-                We have combined our collective experience of prolific dreamers,
-                designers, front-end developers of the company and connected it
-                with our client's business, demonstrating a unique brand and a
-                functional website that takes into account the entire business
-                logic of the institution.
-              </p>
-            </GoalWrapper>
           </TextWrapper>
 
           <TimeLineLayout>
@@ -160,6 +187,21 @@ const Zoo = () => {
               </ListLayout>
             </ProjectWrap>
           </TimeLineLayout>
+          <GoalWrapper>
+            <GoalTitle>Our goal</GoalTitle>
+            <p>
+              It was necessary to develop a new brand style for the zoo, which
+              would be associated with the city of Kharkiv. Create a
+              multifunctional website for zoo visitors, employees and partners.
+            </p>
+            <p>
+              We have combined our collective experience of prolific dreamers,
+              designers, front-end developers of the company and connected it
+              with our client's business, demonstrating a unique brand and a
+              functional website that takes into account the entire business
+              logic of the institution.
+            </p>
+          </GoalWrapper>
         </DecriptionSection>
       </InfoLayout>
     </Section>

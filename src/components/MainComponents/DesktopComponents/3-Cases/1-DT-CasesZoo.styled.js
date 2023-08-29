@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 import bgImg from '../../../../img/Cases/Zoo-Bg-Img.png';
+
 export const Section = styled.div`
   display: flex;
   box-sizing: border-box;
   flex-direction: row;
   background: rgba(245, 242, 240, 1);
+  @media screen and (min-width: 375px) {
+    flex-direction: column;
+    width: 100%;
+    height: 1962px;
+  }
   @media screen and (min-width: 1365px) {
     width: 100%;
     height: 768px;
@@ -31,6 +37,11 @@ export const LogoSection = styled.div`
   background-size: 800px auto;
   background-repeat: no-repeat;
   background-position: top 0px right -52px;
+  @media screen and (min-width: 375px) {
+    padding-top: 115px;
+    width: 100%;
+    height: 430px;
+  }
   @media screen and (min-width: 1365px) {
     width: 39%;
     height: 768px;
@@ -46,15 +57,27 @@ export const TitleWrapp = styled.div`
   width: 521px;
   height: 335.343px;
   margin: auto 113px;
+  @media screen and (max-width: 1364px) {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 `;
 export const TextTitle = styled.p`
   color: #f5f2f0;
-
   font-style: normal;
   font-weight: 700;
   line-height: 120%;
   margin: 0px;
   padding: 0px;
+
+  @media screen and (max-width: 1364px) {
+    font-size: 28px;
+  }
   @media screen and (min-width: 1365px) {
     font-size: 34px;
   }
@@ -69,6 +92,12 @@ export const LogoWrapp = styled.div`
   gap: 12px;
   align-items: center;
   margin-top: 20px;
+  @media screen and (max-width: 1365px) {
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    margin-right: auto;
+  }
 `;
 export const LogoText = styled.p`
   color: #fff;
@@ -90,6 +119,9 @@ export const ArrowWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (min-width: 375px) {
+    display: none;
+  }
   @media screen and (min-width: 1365px) {
     margin-right: 8px;
     margin-left: 8px;
@@ -124,6 +156,12 @@ export const TextAccent = styled.span`
   }
 `;
 export const Logo = styled.img`
+  @media screen and (max-width: 1364px) {
+    width: 200px;
+    height: 84.815px;
+    margin-top: 20px;
+    margin-right: auto;
+  }
   @media screen and (min-width: 1365px) {
     width: 110.32px;
     height: 100.343px;
@@ -138,6 +176,9 @@ export const InfoLayout = styled.div`
   display: flex;
   flex-direction: row;
   color: #f5f2f0;
+  @media screen and (max-width: 1364px) {
+    flex-direction: column;
+  }
 `;
 
 export const DecriptionSection = styled.div`
@@ -145,6 +186,9 @@ export const DecriptionSection = styled.div`
   flex-wrap: nowrap;
   flex-direction: row;
   padding-right: 15px;
+  @media screen and (max-width: 1364px) {
+    flex-direction: column;
+  }
 `;
 export const TextWrapper = styled.div`
   margin-right: 25px;
@@ -155,7 +199,9 @@ export const CaseTitle = styled.h2`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
+  @media screen and (max-width: 1364px) {
+    display: none;
+  }
   @media screen and (min-width: 1365px) {
     margin-top: 118px;
     margin-bottom: 22px;
@@ -185,6 +231,9 @@ export const CaseListTitle = styled.li`
   text-transform: uppercase;
   list-style: none;
   margin-bottom: 3px;
+  @media screen and (max-width: 1364px) {
+    font-size: 24px;
+  }
   @media screen and (min-width: 1365px) {
     font-size: 18px;
   }
@@ -200,6 +249,9 @@ export const CaseItem = styled.li`
   font-weight: 400;
   line-height: normal;
   margin-bottom: 2px;
+  @media screen and (max-width: 1364px) {
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     font-size: 12px;
   }

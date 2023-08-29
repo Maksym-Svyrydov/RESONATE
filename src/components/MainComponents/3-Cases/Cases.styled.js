@@ -1,4 +1,9 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
+import myImage from '../../../img/bg-zoo.png';
+import gradient from '../../../img/gradient.png';
+import interic from '../../../img/Cases/intericoo_res.png';
+import cashyou from '../../../img/Cases/cashyou.png';
 export const Section = styled.section`
   outline: 2px solid tomato;
   display: flex;
@@ -34,17 +39,45 @@ export const List = styled.ul`
   padding: 0px;
   list-style: none;
 `;
-export const Item = styled.li`
-  border: 1px solid #cbbe9c;
+export const ItemZoo = styled.li`
   padding-left: 30px;
   padding-top: 18px;
   background-repeat: no-repeat;
-  background: linear-gradient(
+  background-color: linear-gradient(
     180deg,
     rgba(0, 0, 0, 0.2) 0%,
     rgba(0, 0, 0, 0) 54.17%
   );
-  background-blend-mode: overlay;
+  border: 1px solid #cbbe9c;
+  background-image: url(${myImage});
+  background-size: cover;
+`;
+export const ItemInterico = styled.li`
+  padding-left: 30px;
+  padding-top: 18px;
+  background: linear-gradient(
+      90deg,
+      rgba(29, 29, 29, 0.6446953781512605) 0%,
+      rgba(1, 1, 1, 0.39539565826330536) 16%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(${interic}), no-repeat;
+
+  border: 1px solid #cbbe9c;
+  ${'' /* background-size: cover; */}
+  ${'' /* background-blend-mode: overlay; */}
+`;
+export const ItemCashYou = styled.li`
+  padding-left: 30px;
+  padding-top: 18px;
+
+  background: linear-gradient(
+      90deg,
+      rgba(29, 29, 29, 0.6446953781512605) 0%,
+      rgba(1, 1, 1, 0.39539565826330536) 16%,
+      rgba(0, 0, 0, 1) 100%
+    ),
+    url(${cashyou}), no-repeat;
   border: 1px solid #cbbe9c;
 `;
 
@@ -91,7 +124,7 @@ export const TextLink = styled.span`
   color: #f5f2f0;
   margin-right: 20px;
 `;
-export const Link = styled.a`
+export const LinkRef = styled(NavLink)`
   display: flex;
   color: white;
 `;
@@ -102,7 +135,9 @@ export const Icon = styled.svg`
   width: 88px;
   height: 18px;
 
-  ${Link}:hover & {
+  ${
+    '' /* ${Link}:hover & {
     fill: #cbbe9c;
+  } */
   }
 `;

@@ -5,7 +5,7 @@ const Reviews = () => {
   return (
     <Section>
       <Text>
-        WE ARE PROUD TO CONTRIBUTE TO <TextAccent>OUR CLIENTS</TextAccent>{' '}
+        WE ARE PROUD TO CONTRIBUTE TO <TextAccent>OUR CLIENTS</TextAccent>
         SUCCESS.
       </Text>
       <Quote>
