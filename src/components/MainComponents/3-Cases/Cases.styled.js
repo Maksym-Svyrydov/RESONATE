@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 import myImage from '../../../img/bg-zoo.png';
-import gradient from '../../../img/gradient.png';
+// import gradient from '../../../img/gradient.png';
 import interic from '../../../img/Cases/intericoo_res.png';
 import cashyou from '../../../img/Cases/cashyou.png';
 export const Section = styled.section`

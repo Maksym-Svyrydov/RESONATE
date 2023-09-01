@@ -188,6 +188,7 @@ export const DecriptionSection = styled.div`
   padding-right: 15px;
   @media screen and (max-width: 1364px) {
     flex-direction: column;
+    padding-right: 0px;
   }
 `;
 export const TextWrapper = styled.div`
@@ -266,6 +267,13 @@ export const GoalWrapper = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  @media screen and (max-width: 1364px) {
+    width: 343px;
+    height: 498px;
+    margin: 0px auto 37px auto;
+    padding: 10px 10px;
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     max-width: 340px;
     max-height: 260px;
@@ -288,7 +296,10 @@ export const GoalTitle = styled.h3`
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-
+  @media screen and (max-width: 1364px) {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
   @media screen and (min-width: 1365px) {
     font-size: 18px;
     margin-bottom: 10px;
@@ -317,10 +328,14 @@ export const ProjectTitle = styled.h3`
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-
+  @media screen and (max-width: 1364px) {
+    padding: 35px 0px 0px 32px;
+    margin: 0px 0px 18px 0px;
+    font-size: 24px;
+  }
   @media screen and (min-width: 1365px) {
     padding: 197px 0px 0px 20px;
-    margin: 0px 0px 18px 0px;
+    margin: 0px 0px 27px 0px;
     font-size: 18px;
   }
   @media screen and (min-width: 1919px) {
@@ -347,6 +362,13 @@ export const TimeList = styled.ul`
   }
 `;
 export const TimeItem = styled.li`
+  @media screen and (max-width: 1364px) {
+    height: 92px;
+    width: 40px;
+    padding-top: 0px;
+    font-size: 18px;
+  }
+
   @media screen and (min-width: 1365px) {
     height: 65px;
     width: 30px;
@@ -361,6 +383,12 @@ export const TimeItem = styled.li`
   }
 `;
 export const TimeItemLast = styled.li`
+  @media screen and (max-width: 1364px) {
+    height: 92px;
+    width: 40px;
+    padding-top: 0px;
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     height: 65px;
     width: 30px;
@@ -388,6 +416,11 @@ export const ListLayout = styled.ul`
 export const ListLayoutItem = styled.li`
   list-style: none;
   padding: 0;
+  @media screen and (max-width: 1364px) {
+    height: 92px;
+    width: 256px;
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     height: 65px;
     width: 300px;
@@ -403,6 +436,11 @@ export const Frame = styled.div`
   position: absolute;
   border-right: 1px solid #f5f2f0;
   width: 1px;
+  @media screen and (max-width: 1364px) {
+    height: 470px;
+    top: 18px;
+    left: 93px;
+  }
   @media screen and (min-width: 1365px) {
     height: 335px;
     top: 20px;
@@ -419,11 +457,19 @@ export const CircleList = styled.ul`
   position: absolute;
   top: 0px;
   left: 16px;
+  @media screen and (max-width: 1364px) {
+    top: 0px;
+    left: 46px;
+  }
 `;
 export const Circle = styled.li`
   background-color: #cbbe9c;
   border-radius: 50%;
-
+  @media screen and (max-width: 1364px) {
+    margin-bottom: 71px;
+    width: 21px;
+    height: 21px;
+  }
   @media screen and (min-width: 1365px) {
     margin-bottom: 44px;
     width: 18px;
@@ -438,6 +484,11 @@ export const Circle = styled.li`
 export const CircleProcess = styled.li`
   border-radius: 50%;
   background-color: #c1c1c1;
+  @media screen and (max-width: 1364px) {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 74px;
+  }
   @media screen and (min-width: 1365px) {
     width: 15px;
     height: 15px;

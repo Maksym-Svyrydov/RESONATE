@@ -20,8 +20,9 @@ import CarouselResult from '../../components/MainComponents/DesktopComponents/7-
 // import FooterDesktop from '../../components/MainComponents/DesktopComponents/8-Footer/DT-Footer';
 import FooterDesktop from '../../components/MainComponents/DesktopComponents/8-Footer/DT-Footer copy';
 const Main = () => {
-  const [screen, setScreen] = useState(() => window.innerWidth);
+  const [screen, setScreen] = useState();
   useState(() => setScreen(window.innerWidth));
+
   // console.log(screen);
   // console.log(window.innerHeight);
   // const screenWidth = window.screen.width;
