@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/resonate/static/css/main.7570e052.css",
-    "main.js": "/resonate/static/js/main.62498073.js",
-    "static/css/857.4a4e337f.chunk.css": "/resonate/static/css/857.4a4e337f.chunk.css",
-    "static/js/857.3114e47d.chunk.js": "/resonate/static/js/857.3114e47d.chunk.js",
+    "main.js": "/resonate/static/js/main.548bbdd3.js",
+    "static/css/672.c12cfd40.chunk.css": "/resonate/static/css/672.c12cfd40.chunk.css",
+    "static/js/672.f3540c97.chunk.js": "/resonate/static/js/672.f3540c97.chunk.js",
     "static/js/147.1e32c969.chunk.js": "/resonate/static/js/147.1e32c969.chunk.js",
     "static/js/964.ccff84bc.chunk.js": "/resonate/static/js/964.ccff84bc.chunk.js",
     "static/js/787.097e58ee.chunk.js": "/resonate/static/js/787.097e58ee.chunk.js",
-    "static/js/413.ad80452a.chunk.js": "/resonate/static/js/413.ad80452a.chunk.js",
+    "static/js/897.a994f576.chunk.js": "/resonate/static/js/897.a994f576.chunk.js",
     "static/media/2-ogilvy.png": "/resonate/static/media/2-ogilvy.2d3e7ce8e32bd88046eb.png",
     "static/media/Zoo-Bg-Img.png": "/resonate/static/media/Zoo-Bg-Img.76c3718e7ba477f67109.png",
     "static/media/Cash.png": "/resonate/static/media/Cash.9abe65908eb18b404cdf.png",
@@ -47,13 +47,13 @@
     "static/media/BluePrime.svg": "/resonate/static/media/BluePrime.597573a135be6e4d0a9d9e0cc0d628da.svg",
     "static/media/cashyouLogo.svg": "/resonate/static/media/cashyouLogo.b5ca34512a646fe4b26f212ec23984f3.svg",
     "static/media/cashyou.svg": "/resonate/static/media/cashyou.863fc8ec615cb693583dc163cf567bf4.svg",
+    "static/media/kharkivzoo_white.svg": "/resonate/static/media/kharkivzoo_white.ec4dc56954aef74d3c93b5bfe57d240b.svg",
     "static/media/kharkivzoo.svg": "/resonate/static/media/kharkivzoo.e740da078e32fc11e92abef575acd13d.svg",
     "static/media/kharkivzoo_logo.svg": "/resonate/static/media/kharkivzoo_logo.e740da078e32fc11e92abef575acd13d.svg",
     "static/media/Gleam.svg": "/resonate/static/media/Gleam.b0cae9ec49283ac58d5996e7de34ac69.svg",
     "static/media/Vikno.svg": "/resonate/static/media/Vikno.a7dbf2cf6ff735ab92154046dce37b86.svg",
     "static/media/IntericcoLogo.svg": "/resonate/static/media/IntericcoLogo.c03b8e65ac9b2ae438a7e355dfa09cec.svg",
     "static/media/marludesign.svg": "/resonate/static/media/marludesign.53d1e12c02e420425391f80fd1190d61.svg",
-    "static/media/marludesign_logo.svg": "/resonate/static/media/marludesign_logo.0f7ab0dfcaffede1dab889b7b208f859.svg",
     "static/media/zoo.svg": "/resonate/static/media/zoo.6ea622a32924ecd9c3d84ca5a5e9aeaa.svg",
     "static/media/instagaram.svg": "/resonate/static/media/instagaram.b19edece34ffe0a9e4d84e8191e7c6e0.svg",
     "static/media/01.svg": "/resonate/static/media/01.836b5bf3678f84ca9d7459f4cfa2477e.svg",
@@ -76,22 +76,23 @@
     "static/media/Facebook.svg": "/resonate/static/media/Facebook.fb308f8525dfb4f9332b1d56ca80201c.svg",
     "static/media/linkiedIn.svg": "/resonate/static/media/linkiedIn.343c07af4176ecc23f210bada684b0d5.svg",
     "static/media/Arrow_link_right.svg": "/resonate/static/media/Arrow_link_right.fb69f8036f5508d6b774d03aa5d64f17.svg",
+    "static/media/Arrow_back.svg": "/resonate/static/media/Arrow_back.4809175ecefdeefb65eb9c1a05ea5f8b.svg",
     "static/media/arrow_white.svg": "/resonate/static/media/arrow_white.3d7f50c997135474dc92cd97b8a1c570.svg",
     "static/media/youtube.svg": "/resonate/static/media/youtube.fbd864dde048ab903d0993f9041d9b47.svg",
     "static/media/quote-white.svg": "/resonate/static/media/quote-white.696570e7a4d865526ffaac67c3e38dc0.svg",
     "static/media/quote.svg": "/resonate/static/media/quote.e750365b83ec0ed284a1f10541feca04.svg",
     "static/media/Arrow.svg": "/resonate/static/media/Arrow.6206e93998b01f0c4b05eb3074b0ea7e.svg",
     "main.7570e052.css.map": "/resonate/static/css/main.7570e052.css.map",
-    "main.62498073.js.map": "/resonate/static/js/main.62498073.js.map",
-    "857.4a4e337f.chunk.css.map": "/resonate/static/css/857.4a4e337f.chunk.css.map",
-    "857.3114e47d.chunk.js.map": "/resonate/static/js/857.3114e47d.chunk.js.map",
+    "main.548bbdd3.js.map": "/resonate/static/js/main.548bbdd3.js.map",
+    "672.c12cfd40.chunk.css.map": "/resonate/static/css/672.c12cfd40.chunk.css.map",
+    "672.f3540c97.chunk.js.map": "/resonate/static/js/672.f3540c97.chunk.js.map",
     "147.1e32c969.chunk.js.map": "/resonate/static/js/147.1e32c969.chunk.js.map",
     "964.ccff84bc.chunk.js.map": "/resonate/static/js/964.ccff84bc.chunk.js.map",
     "787.097e58ee.chunk.js.map": "/resonate/static/js/787.097e58ee.chunk.js.map",
-    "413.ad80452a.chunk.js.map": "/resonate/static/js/413.ad80452a.chunk.js.map"
+    "897.a994f576.chunk.js.map": "/resonate/static/js/897.a994f576.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7570e052.css",
-    "static/js/main.62498073.js"
+    "static/js/main.548bbdd3.js"
   ]
 }
