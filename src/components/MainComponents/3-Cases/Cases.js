@@ -17,8 +17,6 @@ import {
   Icon,
 } from './Cases.styled';
 
-import { Outlet } from 'react-router';
-
 const Cases = () => {
   return (
     <Section>
@@ -67,7 +65,6 @@ const Cases = () => {
               </Icon>
             </LinkRef>
           </LinkWrapper>
-          <Outlet />
         </ItemInterico>
         <ItemCashYou>
           <TextWrapper>
@@ -87,7 +84,6 @@ const Cases = () => {
               </Icon>
             </LinkRef>
           </LinkWrapper>
-          <Outlet />
         </ItemCashYou>
       </List>
     </Section>

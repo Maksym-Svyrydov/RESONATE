@@ -9,7 +9,7 @@ export const Section = styled.div`
   @media screen and (min-width: 375px) {
     flex-direction: column;
     width: 100%;
-    height: 1962px;
+    height: 100%;
   }
   @media screen and (min-width: 1365px) {
     width: 100%;

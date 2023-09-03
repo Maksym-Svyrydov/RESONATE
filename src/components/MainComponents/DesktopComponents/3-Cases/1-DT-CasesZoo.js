@@ -1,6 +1,6 @@
 import React from 'react';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 import arrow from '../../../../img/Cases/Arrow.svg';
 import logoZoo from '../../../../img/Cases/zoo.svg';
@@ -40,16 +40,17 @@ import {
   Circle,
   CircleProcess,
 } from './1-DT-CasesZoo.styled';
-
-// import bgImg from '../../../../img/Cases/Zoo-Bg-Img.png';
 const Zoo = () => {
   const [screen, setScreen] = useState(() => window.innerWidth);
   useState(() => setScreen(window.innerWidth));
   const navigate = useNavigate();
+  const { pathname } = useLocation();
   const showLess = () => {
     navigate(-1);
   };
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
   return (
     <Section>
       <LogoSection>
@@ -70,10 +71,6 @@ const Zoo = () => {
                 <LogoText>ZOO</LogoText>
               </div>
             </LogoWrapp>
-
-            <div>
-              <div>{/* <img src={bgImg} alt="Mankey in Zoo" /> */}</div>
-            </div>
           </TitleWrapp>
         ) : (
           <TitleWrapp>
@@ -111,7 +108,6 @@ const Zoo = () => {
           </TitleWrapp>
         )}
       </LogoSection>
-
       <InfoLayout>
         <ArrowWrapper>
           <ArrowImg src={arrow} alt="Arrow" />
