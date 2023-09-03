@@ -27,6 +27,16 @@ export const SliderCases = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1365,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+
     appendDots: appendDots,
   };
   return (

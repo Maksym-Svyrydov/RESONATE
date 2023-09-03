@@ -3,16 +3,23 @@ import bgImg from '../../../../img/Cases/Cash.png';
 export const Section = styled.div`
   display: flex;
   box-sizing: border-box;
-  flex-direction: row;
+  background-color: rgba(245, 242, 240, 1);
+  @media screen and (min-width: 375px) {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
 
-  background: rgba(245, 242, 240, 1);
   @media screen and (min-width: 1365px) {
     width: 100%;
     height: 768px;
+    flex-direction: row;
   }
+
   @media screen and (min-width: 1919px) {
     width: 100%;
     height: 1080px;
+    flex-direction: row;
   }
 `;
 export const LogoSection = styled.div`
@@ -25,9 +32,15 @@ export const LogoSection = styled.div`
       rgba(0, 0, 0, 1) 100%
     ),
     url(${bgImg}), no-repeat;
+
   background-size: 800px auto;
   background-repeat: no-repeat;
   background-position: top 0px right -52px;
+  @media screen and (max-width: 1364px) {
+    padding-top: 115px;
+    width: 100%;
+    height: 430px;
+  }
   @media screen and (min-width: 1365px) {
     width: 648px;
     height: 768px;
@@ -40,20 +53,29 @@ export const LogoSection = styled.div`
 `;
 export const TitleWrapp = styled.div`
   margin: auto auto;
+  @media screen and (max-width: 1364px) {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px 0px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 `;
 export const TextTitle = styled.p`
   color: #f5f2f0;
-  font-size: 48px;
   font-style: normal;
-  font-weight: 700;
   line-height: 120%;
   margin: 0px 0px 5px 0px;
   padding: 0px;
+  @media screen and (max-width: 1364px) {
+    font-size: 28px;
+  }
   @media screen and (min-width: 1365px) {
     font-size: 32px;
     font-weight: 600;
   }
-
   @media screen and (min-width: 1919px) {
     font-size: 48px;
     font-weight: 700;
@@ -61,9 +83,7 @@ export const TextTitle = styled.p`
 `;
 export const TextAccent = styled.span`
   color: #cbbe9c;
-  font-size: 48px;
   font-style: normal;
-  font-weight: 700;
   line-height: 120%;
   text-decoration-line: underline;
   margin-left: 20px;
@@ -71,7 +91,6 @@ export const TextAccent = styled.span`
     font-size: 32px;
     font-weight: 600;
   }
-
   @media screen and (min-width: 1919px) {
     font-size: 48px;
     font-weight: 700;
@@ -79,24 +98,32 @@ export const TextAccent = styled.span`
 `;
 export const LogoWrapp = styled.div`
   display: flex;
-  margin: 22px auto 0px auto;
+  margin: 15px auto 0px auto;
   justify-content: center;
   align-items: center;
   line-height: 120%;
+  @media screen and (max-width: 1365px) {
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
 `;
 export const Logo = styled.img`
   @media screen and (min-width: 1365px) {
-    width: 178px;
-    height: 128px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 226.356px;
+    height: 178px;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   @media screen and (min-width: 1919px) {
-    width: 226px;
+    width: 226.356px;
     height: 178px;
-    margin-left: 0px;
-    margin-right: auto;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 `;
 export const ArrowWrapper = styled.div`
@@ -105,6 +132,9 @@ export const ArrowWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 1364px) {
+    display: none;
+  }
   @media screen and (min-width: 1365px) {
     margin-right: 0px;
     margin-left: 0px;
@@ -131,16 +161,32 @@ export const InfoLayout = styled.div`
   display: flex;
   flex-direction: row;
   color: #f5f2f0;
+  @media screen and (max-width: 1364px) {
+    flex-direction: column;
+    @media screen and (max-width: 1364px) {
+      flex-direction: column;
+      padding-right: 0px;
+    }
+  }
 `;
 
 export const DecriptionSection = styled.div`
   display: flex;
-  flex-wrap: nowrap;
+
   flex-direction: row;
+  flex-wrap: nowrap;
   padding-right: 15px;
+
+  @media screen and (max-width: 1364px) {
+    flex-direction: column;
+    width: 100%;
+  }
 `;
 export const TextWrapper = styled.div`
   margin-right: 25px;
+  @media screen and (max-width: 1364px) {
+    margin-right: 0px;
+  }
 `;
 export const CaseTitle = styled.h2`
   color: #f5f2f0;
@@ -148,6 +194,9 @@ export const CaseTitle = styled.h2`
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  @media screen and (max-width: 1364px) {
+    display: none;
+  }
 
   @media screen and (min-width: 1365px) {
     margin-top: 118px;
@@ -178,6 +227,9 @@ export const CaseListTitle = styled.li`
   text-transform: uppercase;
   list-style: none;
   margin-bottom: 3px;
+  @media screen and (max-width: 1364px) {
+    font-size: 24px;
+  }
   @media screen and (min-width: 1365px) {
     font-size: 18px;
   }
@@ -188,11 +240,13 @@ export const CaseListTitle = styled.li`
 export const CaseItem = styled.li`
   color: #f5f2f0;
   font-family: DM Sans;
-
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-bottom: 2px;
+  @media screen and (max-width: 1364px) {
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     font-size: 12px;
   }
@@ -207,6 +261,13 @@ export const GoalWrapper = styled.div`
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  @media screen and (max-width: 1364px) {
+    width: 343px;
+    height: 498px;
+    margin: 0px auto 37px auto;
+    padding: 10px 10px;
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     width: 380px;
     height: 252px;
@@ -230,7 +291,10 @@ export const GoalTitle = styled.h3`
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-
+  @media screen and (max-width: 1364px) {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
   @media screen and (min-width: 1365px) {
     font-size: 18px;
     margin-bottom: 10px;
@@ -246,11 +310,13 @@ export const TimeLineLayout = styled.div`
   flex-direction: column;
   flex-wrap: nowrap;
 `;
+
+export const TimeLayout = styled.div``;
 export const NetedList = styled.ul`
   list-style: circle;
   font-family: 'DM Sans';
 `;
-export const TimeLayout = styled.div``;
+
 export const ProjectWrap = styled.div`
   display: flex;
   flex-direction: row;
@@ -263,7 +329,11 @@ export const ProjectTitle = styled.h3`
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-
+  @media screen and (max-width: 1364px) {
+    padding: 35px 0px 0px 32px;
+    margin: 0px 0px 18px 0px;
+    font-size: 24px;
+  }
   @media screen and (min-width: 1365px) {
     padding: 197px 0px 0px 20px;
     margin: 0px 0px 18px 0px;
@@ -281,6 +351,7 @@ export const TimeList = styled.ul`
   flex-direction: column;
   flex-wrap: nowrap;
   padding-top: 0px;
+
   @media screen and (min-width: 1365px) {
     padding: 7px;
     width: 15px;
@@ -293,6 +364,12 @@ export const TimeList = styled.ul`
   }
 `;
 export const TimeItem = styled.li`
+  @media screen and (max-width: 1364px) {
+    height: 92px;
+    width: 40px;
+    padding-top: 0px;
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     height: 65px;
     width: 30px;
@@ -307,6 +384,12 @@ export const TimeItem = styled.li`
   }
 `;
 export const TimeItemLast = styled.li`
+  @media screen and (max-width: 1364px) {
+    height: 92px;
+    width: 40px;
+    padding-top: 0px;
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     height: 65px;
     width: 30px;
@@ -334,6 +417,11 @@ export const ListLayout = styled.ul`
 export const ListLayoutItem = styled.li`
   list-style: none;
   padding: 0;
+  @media screen and (max-width: 1364px) {
+    height: 92px;
+    width: 256px;
+    font-size: 18px;
+  }
   @media screen and (min-width: 1365px) {
     height: 65px;
     width: 300px;
@@ -349,6 +437,11 @@ export const Frame = styled.div`
   position: absolute;
   border-right: 1px solid #f5f2f0;
   width: 1px;
+  @media screen and (max-width: 1364px) {
+    height: 470px;
+    top: 18px;
+    left: 93px;
+  }
   @media screen and (min-width: 1365px) {
     height: 335px;
     top: 20px;
@@ -365,10 +458,19 @@ export const CircleList = styled.ul`
   position: absolute;
   top: 0px;
   left: 16px;
+  @media screen and (max-width: 1364px) {
+    top: 0px;
+    left: 46px;
+  }
 `;
 export const Circle = styled.li`
   background-color: #cbbe9c;
   border-radius: 50%;
+  @media screen and (max-width: 1364px) {
+    margin-bottom: 71px;
+    width: 21px;
+    height: 21px;
+  }
 
   @media screen and (min-width: 1365px) {
     margin-bottom: 44px;
@@ -384,6 +486,11 @@ export const Circle = styled.li`
 export const CircleProcess = styled.li`
   border-radius: 50%;
   background-color: #c1c1c1;
+  @media screen and (max-width: 1364px) {
+    width: 18px;
+    height: 18px;
+    margin-bottom: 74px;
+  }
   @media screen and (min-width: 1365px) {
     width: 15px;
     height: 15px;

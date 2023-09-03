@@ -14,11 +14,13 @@ export const Section = styled.div`
   @media screen and (min-width: 1365px) {
     width: 100%;
     height: 768px;
+    flex-direction: row;
   }
 
   @media screen and (min-width: 1919px) {
     width: 100%;
     height: 1080px;
+    flex-direction: row;
   }
 `;
 export const LogoSection = styled.div`
@@ -37,7 +39,7 @@ export const LogoSection = styled.div`
   background-size: 800px auto;
   background-repeat: no-repeat;
   background-position: top 0px right -52px;
-  @media screen and (min-width: 375px) {
+  @media screen and (max-width: 1364px) {
     padding-top: 115px;
     width: 100%;
     height: 430px;
@@ -101,7 +103,6 @@ export const LogoWrapp = styled.div`
 `;
 export const LogoText = styled.p`
   color: #fff;
-
   margin: 0;
   font-weight: 700;
   letter-spacing: 5px;
@@ -116,17 +117,18 @@ export const ArrowWrapper = styled.div`
   height: 100%;
   width: 150px;
   background: #283340;
-  display: flex;
   justify-content: center;
   align-items: center;
   @media screen and (min-width: 375px) {
     display: none;
   }
   @media screen and (min-width: 1365px) {
+    display: flex;
     margin-right: 8px;
     margin-left: 8px;
   }
   @media screen and (min-width: 1919px) {
+    display: flex;
     padding: 0px;
     margin: 0;
   }
@@ -245,7 +247,6 @@ export const CaseListTitle = styled.li`
 export const CaseItem = styled.li`
   color: #f5f2f0;
   font-family: DM Sans;
-
   font-style: normal;
   font-weight: 400;
   line-height: normal;

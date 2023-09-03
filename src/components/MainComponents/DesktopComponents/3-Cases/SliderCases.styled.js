@@ -129,16 +129,15 @@ export const ButtonList = styled.ul`
 export const Frame = styled.div`
   height: 1px;
   position: absolute;
-
   background-color: #cbbe9c;
   @media screen and (min-width: 1365px) {
     bottom: 81px;
-    right: 36%;
-    width: 300px;
+    right: 34%;
+    width: 350px;
   }
   @media screen and (min-width: 1919px) {
     bottom: 90px;
-    right: 695px;
-    width: 395px;
+    right: 680px;
+    width: 445px;
   }
 `;
