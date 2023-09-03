@@ -1,19 +1,7 @@
-import { nanoid } from 'nanoid';
 import {
   Section,
   Title,
   TitleTxtAccent,
-  TitleServices,
-  ServicesList,
-  ServicesItem,
-  QuestionTxt,
-  QuestionList,
-  QuestionItem,
-  ContactTitle,
-  Form,
-  FormInput,
-  Textarea,
-  ButtonSubmit,
   LinksTitle,
   LinkList,
   Contacts,
@@ -32,31 +20,15 @@ import lnkdin from '../../../img/icons/footer-icons/linkiedIn.svg';
 import twitter from '../../../img/icons/footer-icons/twitter.svg';
 import mailIco from '../../../img/icons/footer-icons/mail.svg';
 import youtube from '../../../img/icons/footer-icons/youtube.svg';
+import FeedbackForm from '../../FeedbackForm/Form';
 const Footer = () => {
-  const handleSubmitForm = (e) => {
-    const form = e.target;
-    e.preventDefault();
-    const name = form.elements.name.value;
-    const phone = form.elements.phone.value;
-    const email = form.elements.email.value;
-    const details = form.elements.details.value;
-    const newRequest = {
-      id: nanoid(),
-      name: name,
-      phone: phone,
-      email: email,
-      details: details,
-    };
-    form.reset();
-    console.log(newRequest);
-  };
   return (
     <Section>
       <Title>
         let’s <TitleTxtAccent>resonate</TitleTxtAccent> your project.
       </Title>
-      <TitleServices>SERVICES</TitleServices>
-      <ServicesList>
+      {/* <TitleServices>SERVICES</TitleServices> */}
+      {/* <ServicesList>
         <ServicesItem>Marketing</ServicesItem>
         <ServicesItem>Promotion</ServicesItem>
         <ServicesItem>Social media</ServicesItem>
@@ -68,9 +40,10 @@ const Footer = () => {
       <QuestionList>
         <QuestionItem>Yes I did</QuestionItem>
         <QuestionItem>Download</QuestionItem>
-      </QuestionList>
-      <ContactTitle>Contact info</ContactTitle>
-      <Form onSubmit={handleSubmitForm}>
+      </QuestionList> */}
+      {/* <ContactTitle>Contact info</ContactTitle> */}
+      <FeedbackForm />
+      {/* <Form onSubmit={handleSubmitForm}>
         <FormInput
           id="name"
           type="text"
@@ -87,7 +60,7 @@ const Footer = () => {
           placeholder="Project details"
         />
         <ButtonSubmit type="submit">SEND</ButtonSubmit>
-      </Form>
+      </Form> */}
       <LinksTitle>Quick links</LinksTitle>
       <LinkList>
         <LinkItem>Marketing</LinkItem>

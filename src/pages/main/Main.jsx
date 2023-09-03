@@ -17,8 +17,7 @@ import Customers from '../../components/MainComponents/DesktopComponents/4-Custo
 import ProfitFormula from '../../components/MainComponents/DesktopComponents/5-Profit/Profit';
 import ReviewsCustomers from '../../components/MainComponents/DesktopComponents/6-Reviews/Reviews';
 import CarouselResult from '../../components/MainComponents/DesktopComponents/7-Articles/Carousel';
-// import FooterDesktop from '../../components/MainComponents/DesktopComponents/8-Footer/DT-Footer';
-import FooterDesktop from '../../components/MainComponents/DesktopComponents/8-Footer/DT-Footer copy';
+import FooterDesktop from '../../components/MainComponents/DesktopComponents/8-Footer/DT-Footer';
 const Main = () => {
   const [screen, setScreen] = useState();
   useState(() => setScreen(window.innerWidth));

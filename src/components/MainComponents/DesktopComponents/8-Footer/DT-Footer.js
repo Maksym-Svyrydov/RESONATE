@@ -1,18 +1,18 @@
-import { nanoid } from 'nanoid';
+// import { nanoid } from 'nanoid';
 import {
   Section,
   Title,
   TitleTxtAccent,
-  TitleServices,
-  ServicesList,
-  QuestionTxt,
-  QuestionList,
-  QuestionItem,
-  ContactTitle,
-  Form,
-  FormInput,
-  Textarea,
-  ButtonSubmit,
+  // TitleServices,
+  // ServicesList,
+  // QuestionTxt,
+  // QuestionList,
+  // QuestionItem,
+  // ContactTitle,
+  // Form,
+  // FormInput,
+  // Textarea,
+  // ButtonSubmit,
   LinksTitle,
   LinkList,
   Contacts,
@@ -23,9 +23,9 @@ import {
   Icon,
   Rsnt,
   LinksWrapper,
-  CheckboxContainer,
-  Checkbox,
-  Label,
+  // CheckboxContainer,
+  // Checkbox,
+  // Label,
 } from './DT-Footer.styled';
 import insta from '../../../../img/icons/footer-icons/instagaram.svg';
 import facebook from '../../../../img/icons/footer-icons/facebook.svg';
@@ -35,27 +35,9 @@ import lnkdin from '../../../../img/icons/footer-icons/linkiedIn.svg';
 import twitter from '../../../../img/icons/footer-icons/twitter.svg';
 import mailIco from '../../../../img/icons/footer-icons/mail.svg';
 import youtube from '../../../../img/icons/footer-icons/youtube.svg';
+import FormFeedback from '../../../FeedbackForm/Form';
 
 const FooterDesktop = () => {
-  const handleSubmitForm = (e) => {
-    const form = e.target;
-    e.preventDefault();
-    const name = form.elements.name.value;
-    const phone = form.elements.phone.value;
-    const email = form.elements.email.value;
-    const details = form.elements.details.value;
-    const newRequest = {
-      id: nanoid(),
-      name: name,
-      phone: phone,
-      email: email,
-      details: details,
-      services: [],
-    };
-    form.reset();
-    console.log(newRequest.services);
-  };
-  const handleChange = (e) => {};
   return (
     <Section>
       <LinksWrapper>
@@ -113,95 +95,7 @@ const FooterDesktop = () => {
         <Title>
           let’s <TitleTxtAccent>resonate</TitleTxtAccent> your project.
         </Title>
-        <Form onSubmit={handleSubmitForm}>
-          <TitleServices>SERVICES</TitleServices>
-          <ServicesList>
-            <CheckboxContainer>
-              <Checkbox
-                name="marketing"
-                type={'checkbox'}
-                id="Marketing"
-                checked="marketing"
-                onChange={handleChange}
-              />
-              <Label htmlFor={'Marketing'}>Marketing</Label>
-            </CheckboxContainer>
-            <CheckboxContainer>
-              <Checkbox
-                name="promotion"
-                type={'checkbox'}
-                id="Promotion"
-                checked="promotion"
-              />
-              <Label htmlFor={'Promotion'}>Promotion</Label>
-            </CheckboxContainer>
-            <CheckboxContainer>
-              <Checkbox
-                name="social"
-                type={'checkbox'}
-                id="Social media"
-                checked="Social media"
-              />
-              <Label htmlFor={'Social media'}>Social media</Label>
-            </CheckboxContainer>
-            <CheckboxContainer>
-              <Checkbox
-                name="development"
-                type={'checkbox'}
-                id="Development"
-                checked="Development"
-              />
-              <Label htmlFor={'Development'}>Development</Label>
-            </CheckboxContainer>
-            <CheckboxContainer>
-              <Checkbox
-                name="branding"
-                type={'checkbox'}
-                id="Branding"
-                checked="Branding"
-              />
-              <Label htmlFor={'Branding'}>Branding</Label>
-            </CheckboxContainer>
-            <CheckboxContainer>
-              <Checkbox
-                name="other"
-                type={'checkbox'}
-                id="Other"
-                checked="other"
-              />
-              <Label htmlFor={'Other'}>Other</Label>
-            </CheckboxContainer>
-          </ServicesList>
-          <QuestionTxt>Have you filled out our brief yet?</QuestionTxt>
-          <QuestionList>
-            <QuestionItem>Yes I did</QuestionItem>
-            <QuestionItem>Download</QuestionItem>
-          </QuestionList>
-          <ContactTitle>Contact info</ContactTitle>
-
-          <FormInput
-            id="name"
-            type="text"
-            name="name"
-            required
-            placeholder="Name*"
-          />
-          <FormInput id="phone" type="tel" name="phone" placeholder="Phone*" />
-          <FormInput
-            id="email"
-            type="email"
-            name="email"
-            required
-            placeholder="Email"
-          />
-          <Textarea
-            id="details"
-            type="text"
-            name="details"
-            placeholder="Project details"
-          />
-          <ButtonSubmit type="submit">SEND</ButtonSubmit>
-        </Form>
+        <FormFeedback />
       </div>
     </Section>
   );
