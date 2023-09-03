@@ -1,6 +1,7 @@
 import React from 'react';
-import { useState, useRef } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import arrow from '../../../../img/Cases/Arrow.svg';
 import logoZoo from '../../../../img/Cases/zoo.svg';
 import logoZooMod from '../../../../img/Customers/kharkivzoo_white.svg';
@@ -44,8 +45,11 @@ import {
 const Zoo = () => {
   const [screen, setScreen] = useState(() => window.innerWidth);
   useState(() => setScreen(window.innerWidth));
-  const location = useLocation();
-  const backLinkHref = useRef(location.state?.from ?? '/');
+  const navigate = useNavigate();
+  const showLess = () => {
+    navigate(-1);
+  };
+
   return (
     <Section>
       <LogoSection>
@@ -97,7 +101,7 @@ const Zoo = () => {
                     marginBottom: '15px',
                     marginTop: '25px',
                   }}
-                  to={backLinkHref.current}
+                  onClick={showLess}
                 >
                   <span>Show less</span>
                   <img src={arrowBack} alt="Arrow back" />
