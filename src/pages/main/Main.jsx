@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Hero from '../../components/MainComponents/1-Hero/Hero';
 import Marketing from '../../components/MainComponents/2-Promo/1-Marketing';
 import Promo from '../../components/MainComponents/2-Promo/2-Promo';
@@ -21,8 +21,13 @@ import FooterDesktop from '../../components/MainComponents/DesktopComponents/8-F
 const Main = () => {
   const [screen, setScreen] = useState();
   useState(() => setScreen(window.innerWidth));
+  const marketing = useRef(null);
+  // const promo = useRef();
+  // const branding = useRef();
+  // const social = useRef();
+  // const development = useRef();
 
-  // console.log(screen);
+  console.log(marketing);
   // console.log(window.innerHeight);
   // const screenWidth = window.screen.width;
   // const screenHeight = window.screen.height;
@@ -33,7 +38,7 @@ const Main = () => {
     return (
       <>
         <Hero />
-        <Marketing />
+        <Marketing ref={marketing} />
         <Promo />
         <Branding />
         <Social />
@@ -43,7 +48,7 @@ const Main = () => {
         <Profit />
         <Reviews />
         <Articles />
-        <Footer />
+        <Footer marketing={marketing} />
       </>
     );
   }

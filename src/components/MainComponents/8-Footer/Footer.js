@@ -1,3 +1,4 @@
+import { React, useRef } from 'react';
 import {
   Section,
   Title,
@@ -21,7 +22,18 @@ import twitter from '../../../img/icons/footer-icons/twitter.svg';
 import mailIco from '../../../img/icons/footer-icons/mail.svg';
 import youtube from '../../../img/icons/footer-icons/youtube.svg';
 import FeedbackForm from '../../FeedbackForm/Form';
-const Footer = () => {
+const Footer = (marketing) => {
+  const ref = useRef();
+  // console.log(marketing.current);
+  const scrollHandler = () => {
+    ref.current.scrollIntoView({
+      behavior: 'smooth',
+    });
+  };
+  // const scrollHandler = (elemRef) => {
+  //   console.log(elemRef.current);
+  //   window.scrollTo({ top: elemRef.current.offsetTop, behavior: 'smooth' });
+  // };
   return (
     <Section>
       <Title>
@@ -63,7 +75,7 @@ const Footer = () => {
       </Form> */}
       <LinksTitle>Quick links</LinksTitle>
       <LinkList>
-        <LinkItem>Marketing</LinkItem>
+        <LinkItem onClick={scrollHandler(marketing)}>Marketing</LinkItem>
         <LinkItem>Promotion</LinkItem>
         <LinkItem>Branding</LinkItem>
         <LinkItem>Social media</LinkItem>

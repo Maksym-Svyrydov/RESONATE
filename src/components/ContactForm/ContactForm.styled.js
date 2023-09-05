@@ -9,9 +9,7 @@ export const FormContainer = styled.div`
   line-height: normal;
   margin-left: auto;
   margin-right: auto;
-  position: sticky;
-  left: 25px;
-  top: 130px;
+
   @media screen and (max-width: 1364px) {
     visibility: hidden;
   }
@@ -22,9 +20,6 @@ export const FormContainer = styled.div`
   }
   @media screen and (min-width: 1919px) {
     display: flex;
-    position: sticky;
-    top: 0px;
-    left: 0;
     height: 580px;
     width: 339px;
     padding: 17px 14px;

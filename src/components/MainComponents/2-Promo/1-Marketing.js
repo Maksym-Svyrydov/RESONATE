@@ -1,4 +1,4 @@
-import React from 'react';
+import { React, forwardRef } from 'react';
 import ButtonService from '../../Buttons/ButtonService';
 import Quotes from '../../Quote/Quote';
 import img from '../../../img/01.svg';
@@ -22,9 +22,9 @@ import {
   SectionText,
 } from './1-Marketing.styled';
 
-const Marketing = () => {
+const Marketing = ({ props }, marketing) => {
   return (
-    <Section>
+    <Section ref={marketing}>
       <TitleSection>
         <TextSectionM>Marke</TextSectionM>
         <TextSectionT>ting.</TextSectionT>
@@ -89,4 +89,4 @@ const Marketing = () => {
     </Section>
   );
 };
-export default Marketing;
+export default forwardRef(Marketing);

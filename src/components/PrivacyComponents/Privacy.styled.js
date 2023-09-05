@@ -29,9 +29,11 @@ export const Wrapper = styled.div`
   }
   @media screen and (min-width: 1365px) {
     width: 968px;
+    margin-right: 70px;
   }
   @media screen and (min-width: 1919px) {
-    width: 1100px;
+    width: 1156px;
+    margin-right: 259px;
   }
 `;
 export const Title = styled.h2`
